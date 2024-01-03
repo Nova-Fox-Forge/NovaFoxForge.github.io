@@ -1,10 +1,10 @@
 <div style="background-color: #333; color: white; padding: 10px; text-align: center;">
-  
+
 # Nova Fox Forge
-  
+ 
 ### Créateur d'environnements virtuels interactif
 
-> Actuellement en phase de prospection et de collecte d'informations concernant d'éventuels besoins en matière de modélisation d'environnements 3D interactifs.
+Actuellement en phase de prospection et de collecte d'informations concernant d'éventuels besoins en matière de modélisation d'environnements 3D interactifs.
 Nous envisageons de nous lancer en tant dans ce domaine afin de proposer ces services à de potentiels intéressés.
 Ces environnements 3D offriraient une interactivité permettant :
 - le déplacement à la manière d’un jeu, à pied ou à l’aide de différents moyens de transport, en bus, en métro ou en téléphérique par exemple.
@@ -17,7 +17,7 @@ Ces environnements 3D offriraient une interactivité permettant :
 - simulation de l'impact paysager de travaux comme les lignes de métros.
 - exemple : aménagement en plusieurs versions d'une friche industrielle en station de métro, champ agri-photovoltaïque, festival des lumières, marché de Noel, déplacement dans une gare, un magasin etc.
 
-> Cette offre vous permettrait d'adopter une forme de communication novatrice, visant à susciter l'intérêt des nouvelles générations pour vos projets.
+Cette offre vous permettrait d'adopter une forme de communication novatrice, visant à susciter l'intérêt des nouvelles générations pour vos projets.
 De surcroît, elle contribuerait à faciliter la compréhension de vos projets lors des concertations et des réunions.
 En dernier lieu, la mise en ligne de l'environnement sur internet permettrait au grand public de s'y immerger et d’accroitre la visibilité des projets.
 D’autres possibilités plus avancées peuvent-être envisagées, telles que la réalité augmentée ou la réalité virtuelle, dans le but d'amplifier l’immersion et de faciliter la compréhension du projet imaginé.
