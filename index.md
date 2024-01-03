@@ -1,4 +1,4 @@
-<div style="background-color: #333; color: white; padding: 10px; text-align: center;">
+<div style="background-color: #333; color: white; padding: 200px;">
 
 # Nova Fox Forge
  
@@ -26,7 +26,7 @@ D’autres possibilités plus avancées peuvent-être envisagées, telles que l
   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UpyYIodLcPE?si=YIFNjIVEpaV5G7qI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;     gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   
-Comparaison avec des images google map :
+Les travaux sont encore en cours, mais vous pouvez-dors et déjà comparer avec le mode Street View de Google Map : https://www.google.com/maps/@43.5850909,1.3867193,3a,75y,134.79h,84.91t/data=!3m6!1e1!3m4!1sRgU_CHpooS9icIxMrnE1eg!2e0!7i16384!8i8192?hl=fr&entry=ttu
   
 </div>
 
