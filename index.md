@@ -1,4 +1,4 @@
-.element: data-background-image="![The San Juan Mountains are beautiful!](/Assets/Images/GradiantBlackWhite.jpg"Background")
+.element: data-background-image="![BackgroundImage!](/Assets/Images/GradiantBlackWhite.jpg"Background")
 
 # Nova Fox Forge
  
