@@ -1,6 +1,11 @@
-.element: data-background-image="![BackgroundImage!](/Assets/Images/GradiantBlackWhite.jpg"Background")
+<div style="background-color: #333; color: white; padding-top: 100px; padding-bottom: 100px; padding-left: 300px; padding-right: 300px; text-align: center;">
 
 # Nova Fox Forge
+
+</div>
+
+.element: data-background-image="![BackgroundImage!](/Assets/Images/GradiantBlackWhite.jpg"Background")
+
  
 ### Créateur d'environnements virtuels interactifs
 
