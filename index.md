@@ -1,3 +1,4 @@
+<!--
 <div style="background-color: #333; color: white; padding-top: 100px; padding-bottom: 100px; padding-left: 300px; padding-right: 300px; text-align: center;">
 
 # Nova Fox Forge
@@ -35,4 +36,4 @@ La modélisation n'est pas terminée, mais vous pouvez-dors et déjà comparer a
 https://www.google.com/maps/@43.5850909,1.3867193,3a,75y,134.79h,84.91t/data=!3m6!1e1!3m4!1sRgU_CHpooS9icIxMrnE1eg!2e0!7i16384!8i8192?hl=fr&entry=ttu
   
 Contactez-nous à l'adresse suivante : **contact@novafoxforge.com**
-
+-->
