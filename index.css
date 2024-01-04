@@ -1,5 +1,10 @@
 @import "{{ site.theme }}";
 
+@font-face {
+      font-family: 'Derivia';
+      src: url("/Assets/Fonts/Derivia-Regular.otf") format('truetype');
+      font-weight: 400;
+}
 
 body {
       background-image: url("Assets/Images/GradiantBlackWhite.jpg");
@@ -8,19 +13,17 @@ body {
       background-color: red;
 }
 
-@font-face {
-      font-family: 'Derivia';
-      src: url("/Assets/Fonts/Derivia-Regular.otf") format('truetype');
-      font-weight: 400;
-}
-
 /*
-}
 header {
   display: none;
 }
 */
 
 div {
+      margin-top: 50px;
+}
+
+.c_video {
+      text-align: center;"
       margin-top: 50px;
 }
