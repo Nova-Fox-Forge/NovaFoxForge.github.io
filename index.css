@@ -10,3 +10,7 @@ body {
 header {
   #display: none;
 }
+
+.paragraph {
+      margin-top: 50px;
+}
