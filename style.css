@@ -2,7 +2,7 @@
 
 @font-face {
       font-family: 'Derivia';
-      src: url("/Assets/Fonts/Derivia-Regular.otf") format('truetype');
+      src: url("/Assets/Fonts/Derivia-Regular.otf") format('OPENTYPE');
       font-weight: 400;
 }
 
@@ -26,6 +26,7 @@ footer {
 }
 
 div {
+      font-family: 'Derivia';
       margin-top: 50px;
 }
 
