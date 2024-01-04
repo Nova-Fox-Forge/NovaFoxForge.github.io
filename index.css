@@ -19,11 +19,17 @@ header {
 }
 */
 
+footer {
+      margin-top:100px;
+      margin-bottom:100px;
+      text-align: center
+}
+
 div {
       margin-top: 50px;
 }
 
 .c_video {
-      text-align: center;"
+      text-align: center;
       margin-top: 50px;
 }
