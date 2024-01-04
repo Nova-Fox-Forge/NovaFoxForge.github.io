@@ -6,8 +6,11 @@ body {
       background-size: cover;
       background-attachment: fixed;
       background-color: red;
-      font-family: 'OpenSans';
-      font-weight: 400;
+      @font-face {
+            font-family: 'OpenSans';
+            src: url("/Assets/Fonts/Derivia-Regular.otf") format('truetype');
+            font-weight: 400;
+      }
 }
 /*
 }
