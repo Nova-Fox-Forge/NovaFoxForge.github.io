@@ -11,8 +11,6 @@ body {
       background-size: cover;
       background-attachment: fixed;
       background-color: red;
-      color: white;
-
 }
 
 /*
@@ -30,6 +28,7 @@ footer {
 div {
       font-family: 'Derivia';
       margin-top: 50px;
+      color: white;
 }
 
 .c_video {
