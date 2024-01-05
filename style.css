@@ -27,6 +27,7 @@ div {
 
 li {
       font-family: 'Derivia';
+      margin-left: 15px;
 }
 
 p {
@@ -55,7 +56,6 @@ p {
 
 }
 
-.list_possibilities, ul, li {
-      text-align: left;
+.list_possibilities, ul {
       margin-left: 50px;
 }
