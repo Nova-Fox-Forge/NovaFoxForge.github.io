@@ -10,14 +10,7 @@ body {
       background-image: url("Assets/Images/GradiantBlackWhite.jpg");
       background-size: cover;
       background-attachment: fixed;
-      background-color: red;
 }
-
-/*
-header {
-  display: none;
-}
-*/
 
 footer {
       margin-top:100px;
@@ -32,7 +25,12 @@ div {
 }
 
 li {
+      font-family: 'Derivia';
       text-align: center;
+}
+
+p {
+      font-family: 'Derivia';
 }
 
 .c_video {
@@ -54,6 +52,5 @@ li {
 }
 
 .c_iframe {
-      width: "560";
-      height: "315";
+
 }
