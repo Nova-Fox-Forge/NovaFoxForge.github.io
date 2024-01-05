@@ -55,7 +55,7 @@ p {
 
 }
 
-.list_possibilities {
+.list_possibilities, ul, li {
       text-align: left;
       margin-left: 50px;
 }
