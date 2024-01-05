@@ -1,7 +1,7 @@
 @import "{{ site.theme }}";
 
 @font-face {
-      font-family: 'sans-serif';
+      font-family: 'fantasy', 'sans-serif';
       src: url("/Assets/Fonts/Derivia-Regular.otf") format('open-type');
       font-weight:normal;
       font-style:normal;
