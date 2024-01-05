@@ -1,7 +1,7 @@
 @import "{{ site.theme }}";
 
 @font-face {
-      font-family: 'Derivia';
+      font-family: 'sans-serif';
       src: url("/Assets/Fonts/Derivia-Regular.otf") format('open-type');
       font-weight:normal;
       font-style:normal;
@@ -11,6 +11,7 @@ body {
       background-image: url("Assets/Images/GradiantBlackWhite.jpg");
       background-size: cover;
       background-attachment: fixed;
+      font-family: sans-serif;
 }
 
 footer {
@@ -20,18 +21,12 @@ footer {
 }
 
 div {
-      font-family: 'serif';
       margin-top: 50px;
       color: white;
 }
 
 li {
-      font-family: 'serif';
       margin-left: 15px;
-}
-
-p {
-      font-family: 'serif';
 }
 
 .c_video {
@@ -46,13 +41,6 @@ p {
       margin-left: 300px;
       margin-right: 300px; 
       text-align: center;
-}
-
-.c_p {
-}
-
-.c_iframe {
-
 }
 
 .list_possibilities {
