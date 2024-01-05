@@ -31,6 +31,10 @@ div {
       color: white;
 }
 
+li {
+      text-align: center;
+}
+
 .c_video {
       text-align: center;
       margin-top: 50px;
