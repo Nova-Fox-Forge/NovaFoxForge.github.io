@@ -20,18 +20,18 @@ footer {
 }
 
 div {
-      font-family: 'Derivia';
+      font-family: 'serif';
       margin-top: 50px;
       color: white;
 }
 
 li {
-      font-family: 'Derivia';
+      font-family: 'serif';
       margin-left: 15px;
 }
 
 p {
-      font-family: 'Derivia';
+      font-family: 'serif';
 }
 
 .c_video {
@@ -55,6 +55,6 @@ p {
 
 }
 
-.list_possibilities, ul {
+.list_possibilities {
       margin-left: 50px;
 }
