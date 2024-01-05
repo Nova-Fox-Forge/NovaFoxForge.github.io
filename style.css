@@ -26,7 +26,6 @@ div {
 
 li {
       font-family: 'Derivia';
-      text-align: center;
 }
 
 p {
@@ -53,4 +52,9 @@ p {
 
 .c_iframe {
 
+}
+
+.list_possibilities {
+      text-align: left;
+      margin-left: 50px;
 }
