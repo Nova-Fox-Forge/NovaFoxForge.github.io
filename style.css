@@ -3,7 +3,8 @@
 @font-face {
       font-family: 'Derivia';
       src: url("/Assets/Fonts/Derivia-Regular.otf") format('open-type');
-      font-weight: 400;
+      font-weight:normal;
+      font-style:normal;
 }
 
 body {
