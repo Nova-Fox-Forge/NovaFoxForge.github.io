@@ -1,12 +1,10 @@
 @import "{{ site.theme }}";
 
 @font-face {
-      font-family: 'fantasy', 'sans-serif';
-      src: url("/Assets/Fonts/Derivia-Regular.otf") format('open-type');
-      font-weight:normal;
-      font-style:normal;
+      font-family: Bitter, sans-serif;  
 }
 
+@import url(
 body {
       background-image: url("Assets/Images/GradiantBlackWhite.jpg");
       background-size: cover;
