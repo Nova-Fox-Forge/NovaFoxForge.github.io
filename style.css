@@ -36,6 +36,15 @@ li {
       text-align: center;
 }
 
+.c_title {
+      font-size: xxx-large;
+}
+
+
+.c_sub_title {
+      font-size: xx-large;
+}
+
 .list_possibilities {
       margin-left: 50px;
 }
