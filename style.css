@@ -46,7 +46,6 @@ li {
       font-size: xxx-large;
 }
 
-
 .c_sub_title {
       font-size: xx-large;
       margin-left: 50px;
@@ -55,6 +54,10 @@ li {
 
 .c_logo {
       margin-left: 500px;
+}
+
+.c_frame {
+      margin-top: 0px;
 }
 
 .list_possibilities {
