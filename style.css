@@ -17,8 +17,14 @@ div {
       color: white;
 }
 
+br {
+      display: block;
+      margin-top: 15px;
+}
+
 li {
       margin-left: 15px;
+      margin-top: 15px;
 }
 
 .c_video {
@@ -38,7 +44,6 @@ li {
 
 .c_title {
       font-size: xxx-large;
-      margin-left: 600px;
 }
 
 
