@@ -29,7 +29,7 @@ li {
 
 .c_video {
       text-align: center;
-      margin-top: 0px;
+      margin-top: 50px;
 }
 
 .c_header {
@@ -58,6 +58,10 @@ li {
 
 .c_iframe {
       margin-top: 0px;
+}
+
+#c_first_video {
+      margin-top: 15px;
 }
 
 .list_possibilities {
