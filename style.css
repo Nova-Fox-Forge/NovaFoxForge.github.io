@@ -38,11 +38,19 @@ li {
 
 .c_title {
       font-size: xxx-large;
+      margin-left: 500px;
 }
 
 
 .c_sub_title {
       font-size: xx-large;
+      margin-left: 50px;
+      color: white;
+}
+
+.c_logo {
+      margin-right: 50px;
+      margin-top: 25px;
 }
 
 .list_possibilities {
