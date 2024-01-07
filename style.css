@@ -32,6 +32,8 @@ li {
       margin-left: 300px;
       margin-right: 300px; 
       text-align: center;
+      display:flex;
+      justify-content: space-between;
 }
 
 .c_title {
@@ -46,8 +48,7 @@ li {
 }
 
 .c_logo {
-      margin-left: 1700px;
-      margin-top: 25px;
+      margin-left: 1400px;
 }
 
 .list_possibilities {
