@@ -1,7 +1,8 @@
 @import "{{ site.theme }}";
 
 body {
-      background-image: url("Assets/Images/GradiantBlackWhite.jpg");
+     /* background-image: url("Assets/Images/GradiantBlackWhite.jpg"); */
+      background-color: black;
       background-size: cover;
       background-attachment: fixed;
       font-family: "Bitter", sans-serif;
