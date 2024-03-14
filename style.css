@@ -56,16 +56,14 @@ h2 {
 }
 
 .c_header {
-      color: white;
-      margin-left: 100px;
-      margin-right: 100px; 
-      text-align: center;
-      display:flex;
-      justify-content: space-between;
+     color: white;
+     margin-left: 100px;
+     margin-right: 100px; 
+     margin-top: 100px; 
 }
 
 .c_title {
-     font-size: xxx-large;
+     font-size: x-large;
 }
 
 .c_sub_title {
