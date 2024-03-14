@@ -14,7 +14,7 @@ footer {
 }
 
 div {
-      margin-top: 50px;
+      margin-top: 10px;
       color: white;
 }
 
@@ -28,14 +28,20 @@ li {
       margin-top: 15px;
 }
 
+h2 {
+      margin-left: 50px;
+}
+
 .main_container {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .main_column {
     flex: 1;
     padding: 20px;
     border: 1px solid #ccc;
+    border-radius: 75px;
 }
 
 .main_column:first-child {
@@ -43,13 +49,12 @@ li {
 }
 
 .c_video_title {
-      text-align: center;
+      text-align: left;
       margin-top: 50px;
 }
 
 .c_header {
       color: white;
-      margin-bottom: 25px;
       margin-left: 100px;
       margin-right: 100px; 
       text-align: center;
@@ -80,6 +85,7 @@ li {
 }
 
 .list_possibilities {
+      margin-top: 10px;
       margin-left: 50px;
 }
 
