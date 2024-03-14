@@ -5,8 +5,8 @@ body {
       background-color: black;
       background-size: cover;
       background-attachment: fixed;
-      /*font-family: "Bitter", sans-serif;*/
-     font-family: Verdana;
+      font-family: "Bitter", Verdana;
+     /*font-family: Verdana;*/
 }
 
 footer {
