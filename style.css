@@ -5,7 +5,8 @@ body {
       background-color: black;
       background-size: cover;
       background-attachment: fixed;
-      font-family: "Bitter", sans-serif;
+      /*font-family: "Bitter", sans-serif;*/
+     font-family: Verdana;
 }
 
 footer {
@@ -49,8 +50,9 @@ h2 {
 }
 
 .c_video_title {
-      text-align: left;
-      margin-top: 50px;
+     text-align: left;
+     margin-top: 50px;
+     margin-left: 50px;
 }
 
 .c_header {
@@ -63,12 +65,13 @@ h2 {
 }
 
 .c_title {
-      font-size: xxx-large;
+     font-size: xxx-large;
 }
 
 .c_sub_title {
-      font-size: xx-large;
-      color: white;
+     font-size: x-large;
+     color: white;
+     margin-left: 0px;
 }
 
 .c_logo {
