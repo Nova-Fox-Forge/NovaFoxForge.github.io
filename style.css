@@ -39,10 +39,12 @@ h2 {
 }
 
 .main_column {
-    flex: 1;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 75px;
+     flex: 1;
+     padding: 20px;
+     border: 1px solid #ccc;
+     border-radius: 75px;
+     opacity: 1;
+     transition: opacity 0.5s ease-in-out;
 }
 
 .main_column:first-child {
