@@ -30,7 +30,7 @@ li {
 
 h2 {
       margin-left: 50px;
-      margin-left: 50px;
+      margin-top: 50px;
 }
 
 .main_container {
@@ -101,4 +101,8 @@ h2 {
 
 #prototypes {
      margin-left: 50px;
+}
+
+#contact_line {
+    font-size: x-large;
 }
