@@ -62,14 +62,22 @@ h2 {
      margin-top: 100px; 
 }
 
-.c_title {
+.header_button {
+     margin-left: 50px;
+     width: 200px;
+     height: 160px;
      font-size: x-large;
+     border-radius: 50px;
+}
+
+.c_title {
+    font-size: x-large;
 }
 
 .c_sub_title {
-     font-size: x-large;
-     color: white;
-     margin-left: 0px;
+    font-size: x-large;
+    color: white;
+    margin-left: 0px;
 }
 
 .c_logo {
