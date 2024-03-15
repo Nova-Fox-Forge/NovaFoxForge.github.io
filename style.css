@@ -5,8 +5,7 @@ body {
       background-color: black;
       background-size: cover;
       background-attachment: fixed;
-      font-family: "Bitter", Verdana;
-     /*font-family: Verdana;*/
+      font-family: "Bitter", "Verdana";
 }
 
 footer {
@@ -30,6 +29,7 @@ li {
 }
 
 h2 {
+      margin-left: 50px;
       margin-left: 50px;
 }
 
