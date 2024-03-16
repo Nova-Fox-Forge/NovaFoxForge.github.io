@@ -34,16 +34,14 @@ h2 {
 }
 
 .main_container {
-    display: flex;
     margin-bottom: 50px;
 }
 
 .main_column {
-     flex: 1;
      padding: 20px;
      border: 1px solid #ccc;
      border-radius: 75px;
-     opacity: 1;
+     opacity: 0;
      transition: opacity 0.5s ease-in-out;
 }
 
@@ -52,6 +50,7 @@ h2 {
 }
 
 .c_video_title {
+     display: flex;
      text-align: left;
      margin-top: 50px;
      margin-left: 50px;
