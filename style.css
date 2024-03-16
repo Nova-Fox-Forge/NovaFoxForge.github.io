@@ -43,7 +43,7 @@ h2 {
      padding: 20px;
      border: 1px solid #ccc;
      border-radius: 75px;
-     opacity: 0;
+     opacity: 1;
      transition: opacity 0.5s ease-in-out;
 }
 
@@ -112,5 +112,5 @@ h2 {
 }
 
 #contact_line {
-    font-size: x-large;
+     margin-left: 50px;
 }
