@@ -4,7 +4,7 @@ alert("Site web en construction");
 //document.addEventListener('DOMContentLoaded', function() {
     function upOpacity(id) {
         var columnToDisplay = document.getElementById(id);
-        var otherColumns = document.querySelectorAll('.main_column:not(#' + id + ');
+        var otherColumns = document.querySelectorAll('.main_column:not(#' + id + ')');
     
         // Augmente l'opacité de la div avec l'id 'X' de 0 à 100%
         columnToDisplay.style.opacity = '1';
