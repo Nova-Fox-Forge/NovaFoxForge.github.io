@@ -34,10 +34,12 @@ h2 {
 }
 
 .main_container {
-    margin-bottom: 50px;
+     position: relative;
+     margin-bottom: 50px;
 }
 
-.main_column {
+.menu {
+     position: absolute;
      padding: 20px;
      border: 1px solid #ccc;
      border-radius: 75px;
@@ -45,12 +47,11 @@ h2 {
      transition: opacity 0.5s ease-in-out;
 }
 
-.main_column:first-child {
+.menu:first-child {
     margin-right: 10px; /* Espace entre les colonnes */
 }
 
 .c_video_title {
-     display: flex;
      text-align: left;
      margin-top: 50px;
      margin-left: 50px;
@@ -92,7 +93,13 @@ h2 {
 }
 
 .c_video {
+     display: flex;
      margin-top: 15px;
+     margin-left: 100px;
+}
+
+.c_description_video {
+     margin-left: 100px;
 }
 
 .list_possibilities {
