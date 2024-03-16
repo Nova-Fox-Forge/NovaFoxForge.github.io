@@ -1,7 +1,7 @@
 alert("Site web en construction");
 
 /* Buttons */
-document.addEventListener('DOMContentLoaded', function() {
+//document.addEventListener('DOMContentLoaded', function() {
     function upOpacity(id) {
         var columnToDisplay = document.getElementById(id);
         var otherColumns = document.querySelectorAll('.main_column:not(#' + id + ');
@@ -15,4 +15,4 @@ document.addEventListener('DOMContentLoaded', function() {
             div.classList.add('collapsed');
         });
     }
-}
+//}
