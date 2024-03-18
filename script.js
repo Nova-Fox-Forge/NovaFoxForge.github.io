@@ -22,8 +22,6 @@ function upOpacity(id) {
     otherColumns.forEach(function(div) {
         div.style.opacity = '0';
     });
-
-    history.pushState(null, null, id); // Change URL
 }
 
 // Dark theme
