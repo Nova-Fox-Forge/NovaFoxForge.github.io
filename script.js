@@ -1,18 +1,19 @@
+alert("Le site fonctionne mieux sur ordinateur")
+
 /* Buttons */
 function upOpacity(id) {
     var columnToDisplay = document.getElementById(id);
     var otherColumns = document.querySelectorAll('.menu:not(#' + id + ')');
 
-    // Augmente l'opacité de la div avec l'id 'X' de 0 à 100%
     columnToDisplay.style.opacity = '1';
-
-    // Réduit l'opacité des autres divs de 100 à 0% puis les cache
     otherColumns.forEach(function(div) {
         div.style.opacity = '0';
     });
+
+    history.pushState(null, null, id); // Change URL
 }
 
-
+// Dark theme
 var checkboxChangeTheme = document.getElementById('changeTheme');
 checkboxChangeTheme.addEventListener('change', function() {
     if (this.checked) {
@@ -24,7 +25,10 @@ checkboxChangeTheme.addEventListener('change', function() {
     }
 });
 
+
+// Change font
 var checkboxChangeFont = document.getElementById('changeFont');
+var c_text = document.getElementById('c_text');
 checkboxChangeFont.addEventListener('change', function() {
     if (this.checked) {
         document.body.style.fontFamily = 'Verdana';

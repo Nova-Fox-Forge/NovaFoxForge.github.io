@@ -23,7 +23,7 @@ br {
 
 li {
       margin-left: 15px;
-      margin-top: 15px;
+      margin-top: 5px;
 }
 
 h2 {
@@ -98,6 +98,7 @@ input {
 .c_text {
      margin-top: 10px;
      margin-left: 50px;
+     line-height: 25px;
 }
 
 #prototypes {
@@ -110,28 +111,17 @@ input {
 
 
 
-
-
-
-
-
-
-
-
-/* CSS */
-.button-49,
-.button-49:after {
+ .header_button,
+.header_button:after {
   width: 150px;
   height: 76px;
   line-height: 88px;
   font-size: 20px;
   margin-top: 30px;
-  /* background: linear-gradient(45deg, transparent 5%, #FF013C 5%); */
   background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
   border-radius: 42px;
   border: 0;
   color: #fff;
-  letter-spacing: 3px;
   box-shadow: 6px 0px 0px #00E6F6;
   outline: transparent;
   position: relative;
@@ -140,7 +130,7 @@ input {
   touch-action: manipulation;
 }
 
-.button-49:after {
+.header_button:after {
   --slice-0: inset(50% 50% 50% 50%);
   --slice-1: inset(80% -6px 0 0);
   --slice-2: inset(50% -6px 30% 0);
@@ -160,7 +150,7 @@ input {
   clip-path: var(--slice-0);
 }
 
-.button-49:hover:after {
+.header_button:hover:after {
   animation: 1s glitch;
   animation-timing-function: steps(2, end);
 }
@@ -213,8 +203,8 @@ input {
 }
 
 @media (min-width: 768px) {
-  .button-49,
-  .button-49:after {
+  .header_button,
+  .header_button:after {
     width: 200px;
     height: 86px;
     line-height: 88px;
