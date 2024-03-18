@@ -1,5 +1,18 @@
 alert("Le site fonctionne mieux sur ordinateur")
 
+// Detect Chrome
+let userAgent = navigator.userAgent;
+var texts = document.querySelectorAll('.c_text');
+if (/Chrome/.test(userAgent) && !/Chromium/.test(userAgent)) {
+    texts.forEach(function(element) {
+        element.style.lineHeight = '2em'; 
+    });
+} else {
+    texts.forEach(function(element) {
+        element.style.lineHeight = '1.4em'; 
+    });
+}
+
 /* Buttons */
 function upOpacity(id) {
     var columnToDisplay = document.getElementById(id);
@@ -28,7 +41,6 @@ checkboxChangeTheme.addEventListener('change', function() {
 
 // Change font
 var checkboxChangeFont = document.getElementById('changeFont');
-var c_text = document.getElementById('c_text');
 checkboxChangeFont.addEventListener('change', function() {
     if (this.checked) {
         document.body.style.fontFamily = 'Verdana';
