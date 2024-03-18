@@ -1,5 +1,3 @@
-alert("Site web en construction");
-
 /* Buttons */
 function upOpacity(id) {
     var columnToDisplay = document.getElementById(id);
@@ -16,7 +14,6 @@ function upOpacity(id) {
 
 
 var checkboxChangeTheme = document.getElementById('changeTheme');
-
 checkboxChangeTheme.addEventListener('change', function() {
     if (this.checked) {
         document.body.style.color = 'white';
@@ -24,5 +21,14 @@ checkboxChangeTheme.addEventListener('change', function() {
     } else {
         document.body.style.color = 'black';
         document.body.style.backgroundColor = 'white';
+    }
+});
+
+var checkboxChangeFont = document.getElementById('changeFont');
+checkboxChangeFont.addEventListener('change', function() {
+    if (this.checked) {
+        document.body.style.fontFamily = 'Verdana';
+    } else {
+        document.body.style.fontFamily = 'Bitter';
     }
 });
