@@ -13,3 +13,16 @@ function upOpacity(id) {
         div.style.opacity = '0';
     });
 }
+
+
+var checkboxChangeTheme = document.getElementById('changeTheme');
+
+checkboxChangeTheme.addEventListener('change', function() {
+    if (this.checked) {
+        document.body.style.color = 'white';
+        document.body.style.backgroundColor = 'black';
+    } else {
+        document.body.style.color = 'black';
+        document.body.style.backgroundColor = 'white';
+    }
+});

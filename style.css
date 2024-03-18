@@ -31,6 +31,11 @@ h2 {
       margin-top: 50px;
 }
 
+h3 {
+     margin-left: 50px;
+     margin-top: 50px;
+}
+
 .main_container {
      position: relative;
      margin-bottom: 50px;
@@ -39,19 +44,14 @@ h2 {
 .menu {
      position: absolute;
      padding: 20px;
-     border: 1px solid black;
      border-radius: 75px;
      opacity: 0;
      transition: opacity 0.5s ease-in-out;
 }
 
-.menu:first-child {
-    margin-right: 10px; /* Espace entre les colonnes */
-}
-
-.c_video_title {
+.c_video {
+     display: flex;
      text-align: left;
-     margin-top: 50px;
      margin-left: 50px;
 }
 
@@ -88,17 +88,11 @@ h2 {
      margin-top: 0px;
 }
 
-.c_video {
-     display: flex;
-     margin-top: 15px;
-     margin-left: 100px;
-}
-
 .c_description_video {
      margin-left: 100px;
 }
 
-.list_possibilities {
+.c_text {
      margin-top: 10px;
      margin-left: 50px;
 }
@@ -107,18 +101,6 @@ h2 {
      margin-left: 50px;
 }
 
-#contact_line {
-     margin-left: 50px;
-}
-
-#changeTheme:checked + html {
-     color: white;
- }
-
- #changeTheme:checked + body {
-     background-color: black;
- }
-
- #changeTheme:checked + .menu {
-     border: 1px solid white;
+ #firstModel {
+     margin-top: 20px;
  }
