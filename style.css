@@ -230,6 +230,7 @@ input {
   
   h3 {
     font-size:40px;
+    text-align: center;
   }
 
   .c_header {
@@ -245,6 +246,14 @@ input {
     right: 3%;
   }
 
+  .c_video {
+    display: block;
+    text-align: center;
+  }
+
+  .c_text {
+    font-size: 30px;
+  }
 
   .header_button,
   .header_button:after {
@@ -266,7 +275,8 @@ input {
     font-size: 46px;
   }
 
-  .c_text {
-    font-size: 30px;
-  }
+  #LesMaquettes {
+    visibility: collapse;
+    text-align: center;
+ }
 }
