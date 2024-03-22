@@ -15,12 +15,16 @@ if (/Chrome/.test(userAgent) && !/Chromium/.test(userAgent)) {
 
 /* Buttons */
 function upOpacity(id) {
-    var columnToDisplay = document.getElementById(id);
-    var otherColumns = document.querySelectorAll('.menu:not(#' + id + ')');
+    var menuToDisplay = document.getElementById(id);
+    var otherMenus = document.querySelectorAll('.menu:not(#' + id + ')');
 
-    columnToDisplay.style.opacity = '1';
-    otherColumns.forEach(function(div) {
-        div.style.opacity = '0';
+    menuToDisplay.style.opacity = '1';
+    menuToDisplay.style.visibility = 'visible';
+
+    otherMenus.forEach(function(otherMenu) {
+        otherMenu.style.opacity = '0';
+        otherMenu.style.visibility = 'collapse';
+        // otherMenu.classList.toggle('collapse');
     });
 }
 
@@ -42,7 +46,10 @@ var checkboxChangeFont = document.getElementById('changeFont');
 checkboxChangeFont.addEventListener('change', function() {
     if (this.checked) {
         document.body.style.fontFamily = 'Verdana';
+        document.head.style.fontFamily = 'Verdana';
+
     } else {
         document.body.style.fontFamily = 'Bitter';
+        document.head.style.fontFamily = 'Bitter';
     }
 });

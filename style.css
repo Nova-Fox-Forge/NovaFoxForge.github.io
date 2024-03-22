@@ -2,8 +2,8 @@
 
 body {
      /* background-image: url("Assets/Images/GradiantBlackWhite.jpg"); */
-      background-size: cover;
-      background-attachment: fixed;
+      /* background-size: cover; */
+      /* background-attachment: fixed; */
       font-family: "Bitter", "Verdana";
 }
 
@@ -54,6 +54,9 @@ input {
      padding: 20px;
      opacity: 0;
      transition: opacity 0.5s ease-in-out;
+     /* transition: opacity 0.5s ease-in-out, visibility 0.5s collapse ; */
+     /* transition: visibility 3.5;
+     visibility: collapse; */
 }
 
 .c_video {
@@ -108,6 +111,22 @@ input {
  #firstModel {
      margin-top: 20px;
  }
+
+ #LeProjet {
+    opacity: 1;
+ }
+
+ #LesMaquettes {
+    visibility: collapse;
+ }
+
+ #NovaFoxForge {
+  visibility: collapse;
+}
+
+#Paramètres {
+  visibility: collapse;
+}
 
 
  /* @media screen and (-webkit-min-device-pixel-ratio:0) {
