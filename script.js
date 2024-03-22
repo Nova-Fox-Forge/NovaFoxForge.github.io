@@ -1,5 +1,3 @@
-alert("Le site fonctionne mieux sur ordinateur")
-
 // Detect Chrome
 let userAgent = navigator.userAgent;
 var texts = document.querySelectorAll('.c_text');
@@ -24,7 +22,6 @@ function upOpacity(id) {
     otherMenus.forEach(function(otherMenu) {
         otherMenu.style.opacity = '0';
         otherMenu.style.visibility = 'collapse';
-        // otherMenu.classList.toggle('collapse');
     });
 }
 
