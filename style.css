@@ -1,9 +1,4 @@
-@import "{{ site.theme }}";
-
 body {
-     /* background-image: url("Assets/Images/GradiantBlackWhite.jpg"); */
-      /* background-size: cover; */
-      /* background-attachment: fixed; */
       font-family: "Bitter", "Verdana";
 }
 
@@ -212,15 +207,6 @@ input {
     transform: translate(0);
   }
 }
-
-
-
- /* @media screen and (-webkit-min-device-pixel-ratio:0) {
-     .c_text {
-         line-height: 2em;
-     }
- } */
-
 
 /* MOBILES */
 @media only screen and (max-width: 1081px) {
