@@ -30,13 +30,13 @@
   </div>
   
   <div>
-    <button type="button" class="header_button" onclick="upOpacity('LeProjet')">Le projet</button>
-    <button type="button" class="header_button" onclick="upOpacity('LesMaquettes')">Les maquettes</button>
+    <button type="button" id="btnLeProjet" class="header_button" onclick="upOpacity('LeProjet')">Le projet</button>
+    <button type="button" id="btnLesMaquettes" class="header_button" onclick="upOpacity('LesMaquettes')">Les maquettes</button>
   </div>
   
   <div>
-    <button type="button" class="header_button" onclick="upOpacity('NovaFoxForge')">Nova Fox Forge</button>
-    <button type="button" class="header_button" onclick="upOpacity('Paramètres')">Paramètres</button>
+    <button type="button" id="btnNovaFoxForge" class="header_button" onclick="upOpacity('NovaFoxForge')">Nova Fox Forge</button>
+    <button type="button" id="btnParametres" class="header_button" onclick="upOpacity('Parametres')">Paramètres</button>
   </div>
   
   <img class="c_logo" src="Assets/Images/logoFFF_round_small.png" />
@@ -184,7 +184,7 @@
     <!-- FIN MENU NOVAFOXFORGE -->
     
     <!-- DEBUT MENU PARAMETRES -->
-    <div class="menu" id="Paramètres">
+    <div class="menu" id="Parametres">
       <h2></h2>
       <div class="c_text">
         <label for="changeTheme">Mode sombre</label> <input type="checkbox" id="changeTheme"> <br>

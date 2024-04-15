@@ -15,13 +15,24 @@ if (/Chrome/.test(userAgent) && !/Chromium/.test(userAgent)) {
 function upOpacity(id) {
     var menuToDisplay = document.getElementById(id);
     var otherMenus = document.querySelectorAll('.menu:not(#' + id + ')');
-
+    var buttonClicked = document.getElementById("btn"+id);
+    var otherButtons = document.querySelectorAll('.header_button:not(#' + 'btn' + id + ')');
+    
+    buttonClicked.style.backgroundImage = 'radial-gradient(100% 100% at 100% 0, #5adaff 0, #c71d94 100%)';
+    
     menuToDisplay.style.opacity = '1';
     menuToDisplay.style.visibility = 'visible';
 
+    // Hide other texts
     otherMenus.forEach(function(otherMenu) {
         otherMenu.style.opacity = '0';
         otherMenu.style.visibility = 'collapse';
+    });
+
+    // Reset display other buttons
+    otherButtons.forEach(function(otherButton)
+    {
+        otherButton.style.backgroundImage = 'radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%)';
     });
 }
 
