@@ -223,6 +223,11 @@ input {
     text-align: center;
   }
 
+  h4 {
+    text-align: center;
+    font-size: 35px; 
+  }
+
   .c_header {
     margin-left: 20px;
     margin-right: 20px;
@@ -239,10 +244,13 @@ input {
   .c_video {
     display: block;
     text-align: center;
+    margin-left: 0px;
   }
 
   .c_text {
     font-size: 30px;
+    margin-top: 50px;
+    text-align: left;
   }
 
   .header_button,
