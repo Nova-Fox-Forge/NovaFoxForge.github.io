@@ -1,13 +1,46 @@
-// Detect Chrome
-let userAgent = navigator.userAgent;
-var texts = document.querySelectorAll('.c_text');
-if (/Chrome/.test(userAgent) && !/Chromium/.test(userAgent)) {
-    texts.forEach(function(element) {
-        element.style.lineHeight = '2em'; 
+var firstMenu = "LeProjet";
+
+function detectChrome(){
+    let userAgent = navigator.userAgent;
+    var texts = document.querySelectorAll('.c_text');
+    if (/Chrome/.test(userAgent) && !/Chromium/.test(userAgent)) {
+        texts.forEach(function(element) {
+            element.style.lineHeight = '2em'; 
+        });
+    } else {
+        texts.forEach(function(element) {
+            element.style.lineHeight = '1.4em'; 
+        });
+    }
+}
+
+// Dark theme
+function setDarkTheme()
+{
+    var checkboxChangeTheme = document.getElementById('changeTheme');
+    checkboxChangeTheme.addEventListener('change', function() {
+        if (this.checked) {
+            document.body.style.color = 'white';
+            document.body.style.backgroundColor = 'black';
+        } else {
+            document.body.style.color = 'black';
+            document.body.style.backgroundColor = 'white';
+        }
     });
-} else {
-    texts.forEach(function(element) {
-        element.style.lineHeight = '1.4em'; 
+    
+}
+
+function changeFont(){
+    var checkboxChangeFont = document.getElementById('changeFont');
+    checkboxChangeFont.addEventListener('change', function() {
+        if (this.checked) {
+            document.body.style.fontFamily = 'Verdana';
+            document.head.style.fontFamily = 'Verdana';
+    
+        } else {
+            document.body.style.fontFamily = 'Bitter';
+            document.head.style.fontFamily = 'Bitter';
+        }
     });
 }
 
@@ -19,7 +52,6 @@ function upOpacity(id) {
     var otherButtons = document.querySelectorAll('.header_button:not(#' + 'btn' + id + ')');
     
     buttonClicked.style.backgroundImage = 'radial-gradient(100% 100% at 100% 0, #5adaff 0, #c71d94 100%)';
-    
     menuToDisplay.style.opacity = '1';
     menuToDisplay.style.visibility = 'visible';
 
@@ -34,30 +66,25 @@ function upOpacity(id) {
     {
         otherButton.style.backgroundImage = 'radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%)';
     });
+
+    // window.location.href = '/LesMaquettesTest/LesMaquettes.html';
+    moveFooter(id);
 }
 
-// Dark theme
-var checkboxChangeTheme = document.getElementById('changeTheme');
-checkboxChangeTheme.addEventListener('change', function() {
-    if (this.checked) {
-        document.body.style.color = 'white';
-        document.body.style.backgroundColor = 'black';
-    } else {
-        document.body.style.color = 'black';
-        document.body.style.backgroundColor = 'white';
-    }
-});
+function moveFooter(id)
+{
+    // Move footer
+    var menuDisplayed = document.getElementById(id);
+    var footer = document.getElementById('c_footer');
+    var header = document.getElementsByClassName('c_header');
+    console.log(header.item(0));
+    console.log(menuDisplayed.offsetHeight, header.item(0).offsetHeight);
+    
+    footer.style.top = menuDisplayed.offsetHeight + header.item(0).offsetHeight + footer.offsetHeight + "px";
+    footer.style.left = document.documentElement.scrollWidth / 2 - footer.offsetWidth / 2 + "px";    
+}
 
-
-// Change font
-var checkboxChangeFont = document.getElementById('changeFont');
-checkboxChangeFont.addEventListener('change', function() {
-    if (this.checked) {
-        document.body.style.fontFamily = 'Verdana';
-        document.head.style.fontFamily = 'Verdana';
-
-    } else {
-        document.body.style.fontFamily = 'Bitter';
-        document.head.style.fontFamily = 'Bitter';
-    }
-});
+detectChrome();
+setDarkTheme();
+changeFont();
+moveFooter(firstMenu);

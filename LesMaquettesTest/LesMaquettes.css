@@ -1,0 +1,264 @@
+body {
+    font-family: "Bitter", "Verdana";
+}
+
+footer {
+    margin-bottom:100px;
+    text-align: center
+}
+
+div {
+    margin-top: 10px;
+}
+
+br {
+    display: block;
+    margin-top: 15px;
+}
+
+li {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+h2 {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: xx-large;
+}
+
+h3 {
+   margin-left: 50px;
+   margin-top: 50px;
+}
+
+h4 {
+font-size: large;
+}
+
+input {
+   width: 40px;
+   height: 40px;
+   margin-left: 20px;
+   margin-top: 15px;
+}
+
+.main_container {
+   position: relative;
+   margin-bottom: 50px;
+}
+
+.menu {
+   position: absolute;
+   padding: 20px;
+   /* opacity: 0; */
+   opacity: 1;
+   transition: opacity 0.5s ease-in-out;
+   /* transition: opacity 0.5s ease-in-out, visibility 0.5s collapse ; */
+   /* transition: visibility 3.5;
+   visibility: collapse; */
+}
+
+.c_video {
+   display: flex;
+   text-align: left;
+   margin-left: 50px;
+}
+
+.c_header {
+   margin-left: 75px;
+   margin-right: 75px; 
+   margin-top: 40px; 
+   display: flex;
+}
+
+#c_title {
+  font-size: xxx-large;
+}
+
+#c_sub_title {
+  font-size: x-large;
+  margin-left: 0px;
+}
+
+.c_logo {
+   margin-left: 110px;
+   height: 200px;
+}
+
+.c_iframe {
+   margin-top: 0px;
+}
+
+.c_text {
+   margin-top: 10px;
+   margin-left: 50px;
+   font-size: large;
+}
+
+#prototypes {
+   margin-left: 50px;
+}
+
+#firstModel {
+   margin-top: 20px;
+}
+
+.header_button,
+.header_button:after {
+line-height: 88px;
+width: 10em;
+height: 85px;
+font-size: large;
+margin-left: 50px;
+margin-top: 30px;
+background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);  
+border-radius: 42px;
+border: 0;
+color: #fff;
+box-shadow: 6px 0px 0px #00E6F6;
+outline: transparent;
+position: relative;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+}
+
+.header_button:after {
+--slice-0: inset(50% 50% 50% 50%);
+--slice-1: inset(80% -6px 0 0);
+--slice-2: inset(50% -6px 30% 0);
+--slice-3: inset(10% -6px 85% 0);
+--slice-4: inset(40% -6px 43% 0);
+--slice-5: inset(80% -6px 5% 0);
+
+content: 'Nova Fox Forge';
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: linear-gradient(45deg, transparent 3%, #00E6F6 3%, #00E6F6 5%, #FF013C 5%);
+text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+clip-path: var(--slice-0);
+}
+
+.header_button:hover:after {
+animation: 1s glitch;
+animation-timing-function: steps(2, end);
+width: 100%;
+}
+
+@keyframes glitch {
+0% {
+  clip-path: var(--slice-1);
+  transform: translate(-20px, -10px);
+}
+10% {
+  clip-path: var(--slice-3);
+  transform: translate(10px, 10px);
+}
+20% {
+  clip-path: var(--slice-1);
+  transform: translate(-10px, 10px);
+}
+30% {
+  clip-path: var(--slice-3);
+  transform: translate(0px, 5px);
+}
+40% {
+  clip-path: var(--slice-2);
+  transform: translate(-5px, 0px);
+}
+50% {
+  clip-path: var(--slice-3);
+  transform: translate(5px, 0px);
+}
+60% {
+  clip-path: var(--slice-4);
+  transform: translate(5px, 10px);
+}
+70% {
+  clip-path: var(--slice-2);
+  transform: translate(-10px, 10px);
+}
+80% {
+  clip-path: var(--slice-5);
+  transform: translate(20px, -10px);
+}
+90% {
+  clip-path: var(--slice-1);
+  transform: translate(-10px, 0px);
+}
+100% {
+  clip-path: var(--slice-1);
+  transform: translate(0);
+}
+}
+
+/* MOBILES */
+@media only screen and (max-width: 1081px) {
+h2 {
+  font-size:50px;
+}
+
+h3 {
+  font-size:40px;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  font-size: 35px; 
+}
+
+.c_header {
+  margin-left: 20px;
+  margin-right: 20px;
+  display:block;
+}
+
+.c_logo {
+  height: 150px;
+  position: absolute;
+  top: 1%;
+  right: 3%;
+}
+
+.c_video {
+  display: block;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.c_text {
+  font-size: 30px;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.header_button,
+.header_button:after {
+  width: 29%;
+  height: 86px;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 88px;
+  font-size: 35px;
+}
+
+#c_title {
+  text-align: center;
+  font-size: 80px;
+}
+
+#c_sub_title {
+  text-align: center;
+  font-size: 46px;
+}
+
+#LesMaquettes {
+  text-align: center;
+}
+}
