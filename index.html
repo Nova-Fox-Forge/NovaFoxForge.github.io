@@ -24,7 +24,7 @@
   
 <div class="c_header">
   <div>
-    <h1 id="c_title">Nova Fox Forge</h1>
+    <h1 id="c_title" onclick="goHome()">Nova Fox Forge</h1>
     <h2 id="c_sub_title">Créateur d'environnements virtuels interactifs</h2>
     <h4>Donnez envie à vos clients de vous sélectionner</h4>
   </div>
@@ -39,7 +39,7 @@
     <button type="button" id="btnParametres" class="header_button" onclick="upOpacity('Parametres')">Paramètres</button>
   </div>
   
-  <img class="c_logo" src="Assets/Images/logoFFF_round_small.png" />
+  <img onclick="goHome()" class="c_logo" src="Assets/Images/logoFFF_round_small.png" />
 </div>
 
 <div class="main_container">
@@ -197,7 +197,9 @@
 
 </body>
 <footer id="c_footer">
-  © 2024 Nova Fox Forge - site réalisé par Nova Fox Forge
+  <div id="brandWebSite">© 2024 Nova Fox Forge - site réalisé par Nova Fox Forge</div>
+  <button type="button" id="btnLegaleNotice" class="header_button" onclick="openLegalNotice()">Mentions légales</button>
+
 </footer>
 
 <script src="script.js"></script>

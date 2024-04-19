@@ -67,7 +67,6 @@ function upOpacity(id) {
         otherButton.style.backgroundImage = 'radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%)';
     });
 
-    // window.location.href = '/LesMaquettesTest/LesMaquettes.html';
     moveFooter(id);
 }
 
@@ -77,11 +76,19 @@ function moveFooter(id)
     var menuDisplayed = document.getElementById(id);
     var footer = document.getElementById('c_footer');
     var header = document.getElementsByClassName('c_header');
-    console.log(header.item(0));
-    console.log(menuDisplayed.offsetHeight, header.item(0).offsetHeight);
-    
+
     footer.style.top = menuDisplayed.offsetHeight + header.item(0).offsetHeight + footer.offsetHeight + "px";
     footer.style.left = document.documentElement.scrollWidth / 2 - footer.offsetWidth / 2 + "px";    
+}
+
+function openLegalNotice()
+{
+    window.location.href = '/LegalNotice/LegalNotice.html';
+}
+
+function goHome()
+{
+    window.location.href = '/';
 }
 
 detectChrome();
