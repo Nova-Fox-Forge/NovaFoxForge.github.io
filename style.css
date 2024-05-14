@@ -125,6 +125,28 @@ input {
   margin-top: 0px;
 }
 
+#languageSwitcher {
+  background-image: radial-gradient(100% 100% at 100% 0px, rgb(90, 218, 255) 0px, rgb(199, 29, 148) 100%);
+  width: 10em;
+  height: 85px;
+  font-size: large;
+  border-radius: 42px;
+  border: 0;
+  color: #fff;
+  box-shadow: 6px 0px 0px #00E6F6;
+  outline: transparent;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  text-align: center;
+}
+
+option {
+  color: black;
+}
+
+
 .header_button,
 .header_button:after {
   line-height: 88px;

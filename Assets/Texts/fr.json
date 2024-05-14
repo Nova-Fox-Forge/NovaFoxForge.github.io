@@ -1,0 +1,12 @@
+{
+    "main_h4": "Donnez envie à vos clients de vous sélectionner \n Visualisez vos concepts grâce à la modélisation 3D interactive",
+    "main_h2": "Créateur d'environnements virtuels interactifs",
+    "list_functionalities": [
+        "la découverte de l’environnement à la manière d’un jeu, à pied, en voiture, en bus, en métro, en téléphérique ou en vue libre par exemple.",
+        "l’affichage de flux de piétons, de cyclistes, d’automobilistes.",
+        "l'affichage d'informations telles que le nombre de piétons, la distance entre deux points, des explicatifs...",
+        "l'interaction avec des éléments comme des portes, des feux de circulations, de la végétation...",
+        "la transition aisée d’un décor à un autre d'un simple clic.",
+        "la simulation de situations spécifiques, comme par exemple la mise en place d’une ligne de bus en urgence en cas de problèmes avec le métro."
+      ]
+}

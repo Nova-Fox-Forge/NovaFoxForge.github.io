@@ -13,7 +13,7 @@
     
   <!-- TESTER RESULTAT -->
   <meta charset="UTF-8">
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Nova Fox Forge</title>
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -25,8 +25,11 @@
 <div class="c_header">
   <div>
     <h1 id="c_title" onclick="goHome()">Nova Fox Forge</h1>
-    <h2 id="c_sub_title">Créateur d'environnements virtuels interactifs</h2>
-    <h4>Donnez envie à vos clients de vous sélectionner</h4>
+    <h2 id="main_h2" style="margin-left: 0px">Créateur d'environnements virtuels interactifs</h2>
+    <h4 id="main_h4">
+      Donnez envie à vos clients de vous sélectionner <br>
+      Visualisez vos concepts grâce à la modélisation 3D interactive
+    </h4>
   </div>
   
   <div>
@@ -43,14 +46,20 @@
 </div>
 
 <div class="main_container">
+
+    <!-- <div class="imagesList">
+      <img src="Assets/Images/InEnvironments/TopViewModernNeighborhood.png" alt="">
+      <img src="Assets/Images/InEnvironments/TPViewSubway.png" alt="">
+      <img src="Assets/Images/InEnvironments/TPViewSheeps.png" alt="">
+    </div> -->
   
   <!-- DEBUT MENU LE PROJET -->
   <div class="menu" id="LeProjet">
-      <h2>Le projet</h2> 
+      <h2 id="">Le projet</h2> 
       <div class="c_text">
-        <b>Nova Fox Forge crée des environnements interactifs utiles à la compréhension et à la communication de votre projet.</b><br>
-        Les environnements interactifs peuvent comporter de nombreuses fonctionnalités telles que :
-        <ul>
+        <p id=""><b>Nova Fox Forge crée des environnements interactifs utiles à la compréhension et à la communication de votre projet.</b></p>
+        <p id="">Les environnements interactifs peuvent comporter de nombreuses fonctionnalités telles que :</p>
+        <ul id="list_functionalities">
           <li>la découverte de l’environnement à la manière d’un jeu, à pied, en voiture, en bus, en métro, en téléphérique ou en vue libre par exemple.</li>
           <li>l’affichage de flux de piétons, de cyclistes, d’automobilistes.</li>
           <li>l'affichage d'informations telles que le nombre de piétons, la distance entre deux points, des explicatifs...</li>
@@ -60,9 +69,9 @@
         </ul>
       </div>
       
-      <h2>Les possibilités</h2> 
+      <h2 id="">Les possibilités</h2> 
       <div class="c_text">
-        Les possibilités sont nombreuses :
+        <p id="">Les possibilités sont nombreuses :</p>
         <ul>
           <li>éco-quartiers, résidences intergénérationnelles, zones mixtes, ERP… </li>
           <li>systèmes de productions d’énergies : photovoltaïsme, méthaniseurs, éloliens… </li>
@@ -75,8 +84,8 @@
         </ul>
       </div>
 
-      <h2>Les avantages</h2> 
-      <div class="c_text">
+      <h2 id="">Les avantages</h2> 
+      <div class="c_text" id="">
         Ce service vous permettrait d'adopter une <b>communication novatrice</b> visant à susciter <b>l'intérêt des nouvelles générations</b>.<br />
         De surcroît, il contribuerait à <b>faciliter la compréhension</b> lors des réunions avec par exemple, une meilleure visualisation de l'impact paysager du projet.<br />
         Également, le rapprochement vers des concepts d’urbanismes plus modernes comme la ville du quart d'heure, le transit multimodal, les zones à usages multiples ou encore la promotion d’infrastructures plus durables.<br />
@@ -84,16 +93,16 @@
         D’autres possibilités plus avancées peuvent être envisagées, telles que la création de mini-films ou de <b>la réalité virtuelle, dans le but d'amplifier l’immersion</b>.<br />
       </div>
 
-      <h2>La technologie</h2>
-      <div class="c_text"> 
+      <h2 id="">La technologie</h2>
+      <div class="c_text" id=""> 
         Le moteur 3D <a href="https://www.unrealengine.com/fr/unreal-engine-5">Unreal Engine 5</a>, ses plugins et sa grande banque d'assets (objets, animations, effets spéciaux, code...) permettent des créations rapides et dans de nombreux styles, cartoon, photo-réaliste, futuriste... <br>
         Son évolution très rapide permet d'imaginer des créations toujours plus réalistes et dynamiques dans les années à venir.<br>
       </div>
 
-      <h2>Les livrables</h2>
+      <h2 id="">Les livrables</h2>
       <div class="c_text">
-        Concernant le résultat attendu, nous pouvons vous délivrer différents supports en fonction de vos besoins :
-        <ul>
+        <p id="">Concernant le résultat attendu, nous pouvons vous délivrer différents supports en fonction de vos besoins :</p>
+        <ul id="">
           <li>une ou plusieurs images de l'environnement.</li>
           <li>une ou plusieurs vidéos de navigation dans l'environnement.</li>
           <li>une ou plusieurs vidéos dynamiques qui mettent en valeur l'environnement, via un montage travaillé, des ajouts sonores et des effets spéciaux.</li>
@@ -110,44 +119,44 @@
     <!-- DEBUT MENU LESMAQUETTES -->
     <div class="menu" id="LesMaquettes">
       
-      <h2>Les maquettes</h2>
-      <div class="c_text">
+      <h2 id="">Les maquettes</h2>
+      <div class="c_text" id="">
         Ici différents environnements qui peuvent correspondre à du <b>City Information Modeling (CIM).</b>
       </div>
 
       <h3 id="firstModel">Maquette d'une rue à Toulouse : Le chemin de Bordeblanche</h3>
       <div class="c_video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/MYjBZJRafWM?si=rwoLkceX_qTUQAZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <div class="c_text">
+        <div class="c_text" id="">
           Cette reproduction partielle s'apparente à un jumeau numérique, visant à "copier" une représentation du réel. <br />
           Vous pouvez comparer avec le mode Street View de Google Map : https://shorturl.at/aCSUZ.<br />
           Fonctionnalités : ouverture et fermeture de portails et de plots, mode nuit, mode première personne, conduite automobile.
         </div>
       </div>
         
-      <h3>Maquette d'un quartier résidentiel moderne</h3>
+      <h3 id="">Maquette d'un quartier résidentiel moderne</h3>
       <div class="c_video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/FADoOENxcH0?si=-EiQzd97QoJMKGq-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <div class="c_text">
+        <div class="c_text" id="">
           Représentation imaginaire d'un éco-quartier pavillonaire. <br>
           Logements, aménagements pour mobilités douces, espaces de vies (équipements de sport outdoor, bancs, jeux pour enfants), production agrivoltaïque se cotoîent.<br>
           Fonctionnalités : troupeau de moutons, ouverture et fermeture de portails, affichage ou non des panneaux solaires.
         </div>
       </div>
 
-      <h3>Maquette d'un métro</h3>
+      <h3 id="">Maquette d'un métro</h3>
       <div class="c_video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/NnRRoWq9TG8?si=sbZQheqsIpsH0wWa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <div class="c_text">
+        <div class="c_text" id="">
           Représentation imaginaire de deux stations de métros. <br>
           Fonctionnalités : déplacement en métro, ascenseurs, vue première personne.
         </div>
       </div>
 
-      <h3>Maquette d'un jeu vidéo</h3>
+      <h3 id="">Jeu vidéo complet</h3>
       <div class="c_video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/xBdU2O0g0pk?si=Yisdr0VJgY4P2uy8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
-        <div class="c_text">
+        <div class="c_text" id="">
           J'ai aussi conçu un jeu vidéo disponible sur <a href="https://foxbandykoot.itch.io/endless-money">Windows</a> et <a href="https://play.google.com/store/apps/details?id=com.FoxBandyKoot.EndlessMoney">Android</a> via Unreal Engine 5.<br>
           Créer et livrer un jeu vidéo est un projet complexe.<br>
           Cette expérience m'a enseigné la rigueur et de nombreuses connaissances nécessaires à l'utilisation du moteur.<br>
@@ -155,24 +164,24 @@
       </div>
 
       <br>
-      <div class="c_text">
+      <div class="c_text" id="">
         D'autres maquettes sont en cours de réalisations.<br>
-        <b>Que ce soit un projet architectural, un site industriel, une animation de présentation ou du support dans le développent de jeu vidéo, mon savoir-faire vous offrira une expérience interactive indédite.</b><br>
+        <b>Que ce soit un projet architectural, un site industriel, une animation de présentation ou du support dans le développent de jeu vidéo, mon savoir-faire vous offrira une expérience interactive inédite.</b><br>
       </div>
     </div>
     <!-- FIN MENU LESMAQUETTES -->
 
     <!-- DEBUT MENU NOVAFOXFORGE -->
     <div class="menu" id="NovaFoxForge">
-      <h2>Qui suis-je ?</h2>
-      <div class="c_text">
+      <h2 id="">Qui suis-je ?</h2>
+      <div class="c_text" id="">
         Nova Fox Forge est une entreprise basée à Toulouse, spécialisée dans la visualisation et la communication de projets grâce aux nouvelles technologies.<br>
         Après cinq ans d'expériences de développeur au sein d'une grande entreprise française, j'ai fait le choix de m'engager dans l'aventure entrepreneuriale, convaincu que cette voie me permettrait de pleinement exploiter mon potentiel.<br>
-        <b>Mon ambition est de réaliser des projets de qualité qui transformeront vos concepts en environnements 3D interactifs, offrant une clarté visuelle incomparable.</b><br>
+        <b>Mon ambition est de réaliser des projets de qualité qui offriront une clarté visuelle incomparable à vos concepts .</b><br>
       </div>
 
-      <h2>Contact</h2>
-      <div class="c_text"> 
+      <h2 id="">Contact</h2>
+      <div class="c_text" id=""> 
         Que vous soyez un organisme privé, public ou un particulier, si vous souhaitez obtenir de plus amples informations sur mes services, n'hésitez pas à me contacter par 
         <a href="mailto:contact@novafoxforge.com">mail</a>, 
         <a href="https://www.linkedin.com/in/charlylerenard/">sur Linkedin</a>,
@@ -192,8 +201,16 @@
     <div class="menu" id="Parametres">
       <h2></h2>
       <div class="c_text">
-        <label for="changeTheme">Mode sombre</label> <input type="checkbox" id="changeTheme"> <br>
-        <label for="changeFont">Police sans serif</label> <input type="checkbox" id="changeFont">
+        <div>
+          <select id="languageSwitcher">
+            <option value="fr">Français</option>
+            <option value="en">English</option>
+          </select>
+        </div>
+        <div>
+          <label for="changeTheme" id="">Mode sombre</label> <input type="checkbox" id="changeTheme"> <br>
+          <label for="changeFont" id="">Police sans serif</label> <input type="checkbox" id="changeFont">
+        </div>
       </div>
     </div>
     <!-- FIN MENU PARAMETRES -->
@@ -208,4 +225,5 @@
 </footer>
 
 <script src="script.js"></script>
+<script src="Assets/Texts/translate.js"></script>
 </html>
