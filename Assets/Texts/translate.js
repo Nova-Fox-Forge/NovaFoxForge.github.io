@@ -39,58 +39,48 @@ function initLanguageSwitcher(){
 }
 
 // p1 translations is json
-function applyTranslations(translations) {
-    // Iterate over each key in the translations object
-    for (const key in translations) {
-        if (translations.hasOwnProperty(key)) {
-            const element = document.getElementById(key);
+export function applyTranslations(translations) {
+    
+    // return new Promise((resolve, reject) => {
 
-            // If the element exists, set its text content to the translated text
-            if (element) {
 
-                // Manage select tags
-                if (element.tagName.toLowerCase() === 'select') {
-                    element.innerHTML = '';
+        // Iterate over each key in the translations object
+        for (const key in translations) {
+            if (translations.hasOwnProperty(key)) {
+                const element = document.getElementById(key);
 
-                    for (const lang in translations[key]) {
-                        const option = document.createElement('option');
-                        console.log(translations[key][lang])
-                        option.textContent = translations[key][lang];
-                        document.getElementById('languageSwitcher').appendChild(option);
+                // If the element exists, set its text content to the translated text
+                if (element) {
+
+                    // Manage select tags
+                    if (element.tagName.toLowerCase() === 'select') {
+                        element.innerHTML = '';
+
+                        for (const lang in translations[key]) {
+                            const option = document.createElement('option');
+                            console.log(translations[key][lang])
+                            option.textContent = translations[key][lang];
+                            document.getElementById('languageSwitcher').appendChild(option);
+                        }
                     }
-                }
-                // Manage ul tags
-                else if (Array.isArray(translations[key])) {
-                    // If the value is an array, join it into a single string with list items
-                    element.innerHTML = translations[key].map(item => `<li>${item}</li>`).join('');
-                
-                // Manage other tags
-                } else {
-                    // Otherwise, set the text content directly
-                    element.textContent = translations[key];
+                    // Manage ul tags
+                    else if (Array.isArray(translations[key])) {
+                        // If the value is an array, join it into a single string with list items
+                        element.innerHTML = translations[key].map(item => `<li>${item}</li>`).join('');
+                    
+                    // Manage other tags
+                    } else {
+                        // Otherwise, set the text content directly
+                        element.textContent = translations[key];
+                    }
                 }
             }
         }
-    }
+
+    // resolve();
+
+    // });
 }
 
 
 init();
-
-
-    // "languageSwitcher": [
-    //     "French",
-    //     "English"
-    // ]
-
-    // "languageSwitcher": {
-    //     "en": "English",
-    //     "fr": "French"
-    //   }
-
-
-        
-  //   "languageSwitcher": {
-  //     "en": "English",
-  //     "fr": "Français"
-  // }

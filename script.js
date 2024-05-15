@@ -1,3 +1,5 @@
+// import { moveFooter } from "./Utils/Utils";
+
 var firstMenu = "LeProjet";
 
 function detectChrome(){
@@ -9,7 +11,7 @@ function detectChrome(){
         });
     } else {
         texts.forEach(function(element) {
-            element.style.lineHeight = '1.4em'; 
+            element.style.lineHeight = '1.4em';
         });
     }
 }
@@ -46,6 +48,8 @@ function changeFont(){
 
 /* Buttons */
 function upOpacity(id) {
+    
+
     var menuToDisplay = document.getElementById(id);
     var otherMenus = document.querySelectorAll('.menu:not(#' + id + ')');
     var buttonClicked = document.getElementById("btn"+id);
@@ -67,16 +71,19 @@ function upOpacity(id) {
         otherButton.style.backgroundImage = 'radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%)';
     });
 
+    console.log(id)
+
     moveFooter(id);
 }
 
 function moveFooter(id)
 {
     // Move footer
-    console.log(id)
     var menuDisplayed = document.getElementById(id);
     var footer = document.getElementById('c_footer');
     var header = document.getElementsByClassName('c_header');
+
+    console.log(menuDisplayed.offsetHeight)
 
     footer.style.top = menuDisplayed.offsetHeight + header.item(0).offsetHeight + footer.offsetHeight + "px";
     footer.style.left = document.documentElement.scrollWidth / 2 - footer.offsetWidth / 2 + "px";    
@@ -95,4 +102,5 @@ function goHome()
 detectChrome();
 setDarkTheme();
 changeFont();
-moveFooter(firstMenu);
+upOpacity(firstMenu)
+// upOpacity(firstMenu).then(moveFooter(firstMenu));
