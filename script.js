@@ -73,6 +73,7 @@ function upOpacity(id) {
 function moveFooter(id)
 {
     // Move footer
+    console.log(id)
     var menuDisplayed = document.getElementById(id);
     var footer = document.getElementById('c_footer');
     var header = document.getElementsByClassName('c_header');
