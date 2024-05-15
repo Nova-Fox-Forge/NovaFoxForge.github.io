@@ -1,12 +1,122 @@
 {
-    "main_h4": "Make your customers want to select you \n Visualize your concepts using interactive 3D modeling",
-    "main_h2": "Creator of interactive virtual environments",
-    "list_functionalities": [
-        "the discovery of the environment like a game, on foot, by car, by bus, by metro, by cable car or in free view for example.",
-        "display of pedestrian, cyclist, and motorist flows.",
-        "display of information such as the number of pedestrians, the distance between two points, explanations...",
-        "interaction with elements such as doors, traffic lights, vegetation...",
-        "easy transition from one scene to another with a simple click.",
-        "simulation of specific situations, such as setting up an emergency bus line in case of problems with the metro."
-      ]
+    "header_title": "Creator of interactive virtual environments",
+    "header_subtitle_one": "Make your prospects want to choose you",
+    "header_subtitle_second": "Visualize your concepts using interactive 3D modeling",
+
+    "btnLeProjet":"The project",
+    "btnLesMaquettes":"The models",
+    "btnNovaFoxForge":"Nova Fox Forge",
+    "btnParametres":"Settings",
+
+    "project_title": "The project",
+    "project_description": "Nova Fox Forge creates interactive environments that help understand and communicate your project.",
+    "project_features_announce": "These interactive environments can include many features such as:",
+    "project_features": [
+        "exploring the environment like a game, on foot, by car, by bus, by metro, by cable car, or in free view mode.",
+        "displaying flows of pedestrians, cyclists, motorists.",
+        "displaying information such as the number of pedestrians, the distance between two points, explanations...",
+        "interacting with elements like doors, traffic lights, vegetation...",
+        "easily transitioning from one scene to another with a single click.",
+        "simulating specific situations, such as setting up an emergency bus line in case of metro issues."
+    ],
+
+    "possibilities_title": "The possibilities",
+    "possibilities_description": "The possibilities are numerous:",
+    "possibilities_features": [
+        "eco-neighborhoods, intergenerational residences, mixed zones, ERP...",
+        "energy production systems: photovoltaics, biogas plants, wind turbines...",
+        "green spaces: parks, community gardens, urban forests...",
+        "sports infrastructures: multi-sport halls, outdoor fields, swimming pools...",
+        "cultural or entertainment infrastructures: theaters, cinemas, nightlife, game rooms, light festivals, Christmas markets, museums...",
+        "public transport infrastructures: buses, metros, cable cars, train stations, park-and-ride facilities...",
+        "various infrastructures: administrations, health, offices...",
+        "private houses"
+    ],
+
+    "advantages_title": "The advantages",
+    "advantages_description": [
+        "This service would allow you to adopt innovative communication aimed at arousing the interest of new generations.",
+        "In addition, it would help to facilitate understanding during meetings with, for example, better visualization of the landscape impact of the project.",
+        "Also, the rapprochement towards more modern urban planning concepts such as the quarter-hour city, multimodal transit, multiple-use zones or even the promotion of more sustainable infrastructure.",
+        "Lastly, putting the virtual environment online would allow the general public to immerse themselves in it and increase the visibility of the projects.",
+        "Other more advanced possibilities can be considered, such as the creation of mini-films or virtual reality, with the aim of amplifying immersion."
+    ],
+    
+    "technology_title": "The technology",
+    "technology_info_one": "The Unreal Engine 5 3D engine, its plugins, and its large asset library (objects, animations, special effects, code...) enable quick creations in various styles, such as cartoon, photorealistic, futuristic...", 
+    "technology_info_second": "Its rapid evolution allows us to imagine increasingly realistic and dynamic creations in the coming years.",
+
+    "deliverables_title": "The deliverables",
+    "deliverables_description": "Regarding the expected result, we can provide various media depending on your needs:",
+    "deliverables_features": [
+        "one or more images of the environment.",
+        "one or more navigation videos in the environment.",
+        "one or more dynamic videos showcasing the environment, with edited footage, sound additions, and special effects.",
+        "the complete and optimized environment where you can interact with the requested features."
+    ],
+    "deliverables_warning": "However, a graphics card is required to run the environment on your computer.",
+    
+    "models_title": "The models",
+    "models_description": "Here different environments which can correspond to City Information Modeling (CIM).",
+    
+    "models_first": "Model of a street in Toulouse: Le chemin de Bordeblanche",
+    "models_first_desc_one": "This partial reproduction is similar to a digital twin, aiming to 'copy' a real-world representation.",
+    "models_first_desc_second": "You can compare with Google Map's Street View mode: https://shorturl.at/aCSUZ.",
+    "models_first_desc_third": "Features: opening and closing of gates and blocks, night mode, first person mode, car driving.",
+
+    "models_second": "Model of a modern residential neighborhood",
+    "models_second_desc_one": "Imaginary representation of a suburban eco-neighborhood. Housing, soft mobility amenities, living spaces (outdoor sports equipment, benches, playgrounds), and agrivoltaic production coexist.",
+    "models_second_desc_second": "Housing, facilities for soft mobility, living spaces (outdoor sports equipment, benches, games for children), agrivoltaic production coexist.",
+    "models_second_desc_third": "Features: flock of sheep, opening and closing of gates, display or not of solar panels.",
+    
+    "models_third": "Model of a metro",
+    "models_third_desc_one": "Imaginary representation of two metro stations.",
+    "models_third_desc_second": "Features: metro travel, elevators, first person view.",
+
+    "models_videoGame": "Complete video game", 
+    "models_videoGame_desc_one": "I also designed a video game available on Windows and Android via Unreal Engine 5.",
+    "models_videoGame_desc_second": "Creating and delivering a video game is a complex project.",
+    "models_videoGame_desc_third": " This experience taught me rigor and many skills necessary for using the engine.",
+
+    "models_end_one": "Other models are currently being produced.",
+    "models_end_second": "Whether it is an architectural project, an industrial site, a presentation animation or support in video game development, my know-how will offer you a unique interactive experience.",
+
+    "about_title": "About me",
+    "about_info_one": "Nova Fox Forge is a company based in Toulouse, specializing in project visualization and communication through new technologies.",
+    "about_info_second": "After five years of experience as a developer in a large French company, I decided to embark on the entrepreneurial adventure, convinced that this path would allow me to fully exploit my potential.",
+    "about_info_three": "My ambition is to create high-quality projects that transform your concepts into interactive 3D environments, offering unparalleled visual clarity.",
+    
+    "contact_title": "Contact",
+    "contact_description": "Whether you are a private, public organization, or an individual, if you want more information about my services, feel free to contact me by email, on LinkedIn, or on Twitter. The quote is free. Our document exchanges are secured on Amazon Web Services servers via the Notion project management tool interface.",
+    
+    "method_title": "Working method",
+    "method_description": "Communication is crucial for the success of our projects. I remain dedicated to your mission until it is complete and easily accessible to ensure the mission runs smoothly.",
+    
+    "brandWebSite":"© 2024 Nova Fox Forge - site created by Nova Fox Forge",
+    "btnLegaleNotice":"Legal notices",
+
+    "legal_mentions_title": "Legal Notices",
+    "owner_info_title": "Information about the owner:",
+    "owner_info_details": [
+        "Sole proprietorship",
+        "Identity: Charly Lerenard",
+        "Address: 34 Chemin de Bordeblanche 31100 Toulouse",
+        "Email: contact@novafoxforge.com",
+        "VAT Number: FR77987617388"
+    ],
+    
+    "hosting_info_title": "Information about the web host:",
+    "hosting_info_details": [
+        "Identity: GitHub",
+        "Address: 88 Colin P Kelly Jr St San Francisco, CA 94107 United States",
+        "Phone number: (877) 448-4820"
+    ],
+
+    "dark_mode":"Dark mode",
+    "sans_serif_font":"Sans-serif font",
+
+    "fr":"French",
+    "en": "English"
+
+
 }

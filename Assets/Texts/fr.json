@@ -1,12 +1,119 @@
 {
-    "main_h4": "Donnez envie à vos clients de vous sélectionner \n Visualisez vos concepts grâce à la modélisation 3D interactive",
-    "main_h2": "Créateur d'environnements virtuels interactifs",
-    "list_functionalities": [
-        "la découverte de l’environnement à la manière d’un jeu, à pied, en voiture, en bus, en métro, en téléphérique ou en vue libre par exemple.",
-        "l’affichage de flux de piétons, de cyclistes, d’automobilistes.",
-        "l'affichage d'informations telles que le nombre de piétons, la distance entre deux points, des explicatifs...",
-        "l'interaction avec des éléments comme des portes, des feux de circulations, de la végétation...",
-        "la transition aisée d’un décor à un autre d'un simple clic.",
-        "la simulation de situations spécifiques, comme par exemple la mise en place d’une ligne de bus en urgence en cas de problèmes avec le métro."
-      ]
-}
+    "header_title": "Créateur d'environnements virtuels interactifs",
+    "header_subtitle_one": "Donnez envie à vos prospects de vous sélectionner",
+    "header_subtitle_second": "Visualisez vos concepts grâce à la modélisation 3D interactive",
+    
+    "btnLeProjet":"Le projet",
+    "btnLesMaquettes":"Les maquettes",
+    "btnNovaFoxForge":"Nova Fox Forge",
+    "btnParametres":"Paramètres",
+
+    "project_title": "Le projet",
+    "project_description": "Nova Fox Forge crée des environnements interactifs utiles à la compréhension et à la communication de votre projet.",
+    "project_features_announce": "Les environnements interactifs peuvent comporter de nombreuses fonctionnalités telles que :",
+    "project_features": [
+      "la découverte de l’environnement à la manière d’un jeu, à pied, en voiture, en bus, en métro, en téléphérique ou en vue libre par exemple.",
+      "l’affichage de flux de piétons, de cyclistes, d’automobilistes.",
+      "l'affichage d'informations telles que le nombre de piétons, la distance entre deux points, des explications...",
+      "l'interaction avec des éléments comme des portes, des feux de circulations, de la végétation...",
+      "la transition aisée d’un décor à un autre d'un simple clic.",
+      "la simulation de situations spécifiques, comme par exemple la mise en place d’une ligne de bus en urgence en cas de problèmes avec le métro."
+    ],
+    "possibilities_title": "Les possibilités",
+    "possibilities_description": "Les possibilités sont nombreuses :",
+    "possibilities_features": [
+      "éco-quartiers, résidences intergénérationnelles, zones mixtes, ERP…",
+      "systèmes de productions d’énergies : photovoltaïsme, méthaniseurs, éloliens…",
+      "espaces verts : parcs, jardins solidaires, forêts urbaines…",
+      "infrastructures sportives : salles omni-sports, terrains extérieurs, piscines…",
+      "infrastructures culturelles ou liées au divertissement : théâtres, cinémas, monde de la nuit, salles de jeux, festival des lumières, marché de Noël, musées…",
+      "infrastructures de transports collectifs : bus, métros, téléphériques, gares de trains, parking relais/vélo...",
+      "infrastructures diverses : administrations, santé, bureaux…",
+      "maisons particulières"
+    ],
+
+    "advantages_title": "Les avantages",
+    "advantages_description": [
+        "Ce service vous permettrait d'adopter une communication novatrice visant à susciter l'intérêt des nouvelles générations.",
+        "De surcroît, il contribuerait à faciliter la compréhension lors des réunions avec par exemple, une meilleure visualisation de l'impact paysager du projet. ",
+        "Également, le rapprochement vers des concepts d’urbanismes plus modernes comme la ville du quart d'heure, le transit multimodal, les zones à usages multiples ou encore la promotion d’infrastructures plus durables.",
+        "En dernier lieu, la mise en ligne de l'environnement virtuel sur internet permettrait au grand public de s'y immerger et d’accroitre la visibilité des projets.",
+        "D’autres possibilités plus avancées peuvent être envisagées, telles que la création de mini-films ou de la réalité virtuelle, dans le but d'amplifier l’immersion."
+    ],
+
+    "technology_title": "La technologie",
+    "technology_info_one": "Le moteur 3D Unreal Engine 5, ses plugins et sa grande banque d'assets (objets, animations, effets spéciaux, code...) permettent des créations rapides et dans de nombreux styles, cartoon, photo-réaliste, futuriste...", 
+    "technology_info_two": "Son évolution très rapide permet d'imaginer des créations toujours plus réalistes et dynamiques dans les années à venir.",
+
+    "deliverables_title": "Les livrables",
+    "deliverables_description": "Concernant le résultat attendu, nous pouvons vous délivrer différents supports en fonction de vos besoins :",
+    "deliverables_features": [
+      "une ou plusieurs images de l'environnement.",
+      "une ou plusieurs vidéos de navigation dans l'environnement.",
+      "une ou plusieurs vidéos dynamiques qui mettent en valeur l'environnement, via un montage travaillé, des ajouts sonores et des effets spéciaux.",
+      "l'environnement complet et optimisé dans lequel vous pourrez interagir avec les fonctionnalités demandées."
+    ],
+    "deliverables_warning": "Cependant, une carte graphique est nécessaire pour faire fonctionner l'environnement sur votre ordinateur.",
+    
+    "models_title": "Les maquettes",
+    "models_description": "Ici différents environnements qui peuvent correspondre à du City Information Modeling (CIM).",
+    "models_first": "Maquette d'une rue à Toulouse : Le chemin de Bordeblanche",
+    "models_first_desc_one": "Cette reproduction partielle s'apparente à un jumeau numérique, visant à \"copier\" une représentation du réel.",
+    "models_first_desc_second": "Vous pouvez comparer avec le mode Street View de Google Map : https://shorturl.at/aCSUZ.",
+    "models_first_desc_third": "Fonctionnalités : ouverture et fermeture de portails et de plots, mode nuit, mode première personne, conduite automobile.",
+
+    "models_second": "Maquette d'un quartier résidentiel moderne",
+    "models_second_desc_one": "Représentation imaginaire d'un éco-quartier pavillonaire.",
+    "models_second_desc_second": "Logements, aménagements pour mobilités douces, espaces de vies (équipements de sport outdoor, bancs, jeux pour enfants), production agrivoltaïque se cotoîent.",
+    "models_second_desc_third": "Fonctionnalités : troupeau de moutons, ouverture et fermeture de portails, affichage ou non des panneaux solaires.",
+
+    "models_third": "Maquette d'un métro",
+    "models_third_desc_one": "Représentation imaginaire de deux stations de métros.",
+    "models_third_desc_second": "Fonctionnalités : déplacement en métro, ascenseurs, vue première personne.",
+
+    "models_videoGame": "Jeu vidéo complet",
+    "models_videoGame_desc_one": "J'ai aussi conçu un jeu vidéo via Unreal Engine 5 disponible sur Windows et Android.",
+    "models_videoGame_desc_second": "Créer et livrer un jeu vidéo est un projet complexe.",
+    "models_videoGame_desc_third": "Cette expérience m'a enseigné la rigueur et de nombreuses connaissances nécessaires à l'utilisation du moteur.",
+    
+    "models_end_one": "D'autres maquettes sont en cours de réalisations.",
+    "models_end_second": "Que ce soit un projet architectural, un site industriel, une animation de présentation ou du support dans le développent de jeu vidéo, mon savoir-faire vous offrira une expérience interactive inédite.",
+
+    "about_title": "Qui suis-je ?",
+    "about_info_one": "Nova Fox Forge est une entreprise basée à Toulouse, spécialisée dans la visualisation et la communication de projets grâce aux nouvelles technologies.",
+    "about_info_second": "Après cinq ans d'expériences de développeur au sein d'une grande entreprise française, j'ai fait le choix de m'engager dans l'aventure entrepreneuriale, convaincu que cette voie me permettrait de pleinement exploiter mon potentiel.",
+    "about_info_third": " Mon ambition est de réaliser des projets de qualité qui transformeront vos concepts en environnements 3D interactifs, offrant une clarté visuelle incomparable.",
+
+    "contact_title": "Contact",
+    "contact_description": "Que vous soyez un organisme privé, public ou un particulier, si vous souhaitez obtenir de plus amples informations sur mes services, n'hésitez pas à me contacter par mail, sur Linkedin, ou sur Twitter. Le devis est gratuit. Nos échanges de documents sont sécurisés sur les serveurs Amazon Web Services via l'interface de l'outil de gestion de projets Notion.",
+    
+    "method_title": "Méthode de travail",
+    "method_description": "La communication est primordiale pour la réussite de nos projets. Je reste ainsi dédié à votre mission tant que celle-ci n'est pas complète et je reste aisément accessible pour que la mission se déroule dans les meilleurs conditions.",
+
+    "brandWebSite":"© 2024 Nova Fox Forge - site réalisé par Nova Fox Forge",
+    "btnLegaleNotice":"Mentions légales",
+
+    "legal_mentions_title": "Mentions légales",
+    "owner_info_title": "Informations sur le propriétaire :",
+    "owner_info_details": [
+        "Entreprise individuelle",
+        "Identité : Lerenard Charly",
+        "Adresse : 34 Chemin de Bordeblanche 31100 Toulouse",
+        "Email : contact@novafoxforge.com",
+        "TVA Intracommunautaire : FR77987617388"
+    ],
+    
+    "hosting_info_title": "Informations sur l'hébergeur du site web :",
+    "hosting_info_details": [
+        "Identité : GitHub",
+        "Adresse : 88 Colin P Kelly Jr St San Francisco, CA 94107 États-Unis",
+        "Numéro de téléphone : (877) 448-4820"
+    ],
+
+    "dark_mode":"Mode sombre",
+    "sans_serif_font":"Police sans serif",
+
+    "fr":"Français",
+    "en": "Anglais"
+  }
+  

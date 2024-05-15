@@ -125,6 +125,10 @@ input {
   margin-top: 0px;
 }
 
+#project_description {
+  font-weight: bold;
+}
+
 #languageSwitcher {
   background-image: radial-gradient(100% 100% at 100% 0px, rgb(90, 218, 255) 0px, rgb(199, 29, 148) 100%);
   width: 10em;

@@ -12,6 +12,10 @@
 
    <link rel="stylesheet" type="text/css" href="./LegalNotice.css">
    <style>@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');</style>
+
+   <script src="LegalNotice.js"></script>
+   <script type="module" src="/Assets/Texts/Translate.js"></script>
+   
 </head>
 <body>
   <div class="c_header">
@@ -26,22 +30,15 @@
   </div>
 
   <div class="menu">
-  <h2>Mentions légales</h2>
+  <h2 id="legal_mentions_title"></h2>
     <div class="c_text">
-      <b>Informations sur le propriétaire : </b><br>
-      Entreprise individuelle <br>
-      Identité : Lerenard Charly <br>
-      Adresse : 34 Chemin de Bordeblanche 31100 Toulouse <br>
-      Email : contact@novafoxforge.com <br>
-      TVA Intracommunautaire : FR77987617388 <br><br>
+      <p id="owner_info_title"></p>
+      <ul id="owner_info_details"></ul>
       
-      <b>Informations sur l'hebergeur du site web :</b><br>
-      Identité : GitHub<br>
-      Adresse : 88 Colin P Kelly Jr St San Francisco, CA 94107 United States<br>
-      Numéro de téléphone : (877) 448-4820<br>
+      <p id="hosting_info_title"></p>
+      <ul id="hosting_info_details"></ul>
     </div>
   </div>
 </body>
-<script src="LegalNotice.js"></script>
 
 </html>
