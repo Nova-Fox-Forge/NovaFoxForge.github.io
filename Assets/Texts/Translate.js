@@ -45,7 +45,7 @@ function initLanguageSwitcher(){
 
 // p1 translations is json
 export function applyTranslations(translations) {
-    
+    console.log(keywordsToLinks);
     // Iterate over each key in the translations object
     for (const key in translations) {
         if (translations.hasOwnProperty(key)) {
@@ -72,25 +72,16 @@ export function applyTranslations(translations) {
                 
                 // Manage other tags
                 } else {               
-                    // element.textContent = translations[key];
+                    element.textContent = translations[key];
                     // texts with a link
-                    console.log(keywordsToLinks);
                     keywordsToLinks.forEach(function(value, keyword) {
-                        // console.log(keyword + " = " + value);
-                        // console.log(value + " = " + value);
-                        if(translations[key].includes(keyword))
+                        if(element.textContent.includes(keyword))
                         {
-                            // alert("HELLO");
                             const regex = new RegExp(`\\b${keyword}\\b`, 'g'); // Match whole word, globally
-                            element.textContent = element.textContent.replace(regex, `<a href="${value}">${keyword}</a>`);
-                            element.innerHTML = element.textContent;
+                            element.innerHTML = element.innerHTML.replace(regex, `<a href="${value}">${keyword}</a>`);
                         } 
-                        else // Otherwise, set the text content directly
-                        {
-                            element.textContent = translations[key];
-                        }
-                        
                     })
+
                 }
             }
         }

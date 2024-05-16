@@ -63,6 +63,14 @@ input {
    display: flex;
 }
 
+#header_title_div{
+  margin-right: 1%;
+}
+
+#header_title{
+  text-align: center;
+}
+
 #c_title {
   font-size: xxx-large;
 }

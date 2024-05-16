@@ -59,7 +59,7 @@
     "models_description": "Ici différents environnements qui peuvent correspondre à du City Information Modeling (CIM).",
     "models_first": "Maquette d'une rue à Toulouse : Le chemin de Bordeblanche",
     "models_first_desc_one": "Cette reproduction partielle s'apparente à un jumeau numérique, visant à \"copier\" une représentation du réel.",
-    "models_first_desc_second": "Vous pouvez comparer avec le mode Street View de Google Map : https://shorturl.at/aCSUZ.",
+    "models_first_desc_second": "Vous pouvez comparer avec le mode Street View de Google Map.",
     "models_first_desc_third": "Fonctionnalités : ouverture et fermeture de portails et de plots, mode nuit, mode première personne, conduite automobile.",
 
     "models_second": "Maquette d'un quartier résidentiel moderne",
@@ -72,7 +72,7 @@
     "models_third_desc_second": "Fonctionnalités : déplacement en métro, ascenseurs, vue première personne.",
 
     "models_videoGame": "Jeu vidéo complet",
-    "models_videoGame_desc_one": "J'ai aussi conçu un jeu vidéo via Unreal Engine 5 disponible sur Windows et Android.",
+    "models_videoGame_desc_one": "J'ai aussi conçu un jeu vidéo, Endless Money, via Unreal Engine 5 disponible sur Windows et Android.",
     "models_videoGame_desc_second": "Créer et livrer un jeu vidéo est un projet complexe.",
     "models_videoGame_desc_third": "Cette expérience m'a enseigné la rigueur et de nombreuses connaissances nécessaires à l'utilisation du moteur.",
     
@@ -85,7 +85,7 @@
     "about_info_third": " Mon ambition est de réaliser des projets de qualité qui transformeront vos concepts en environnements 3D interactifs, offrant une clarté visuelle incomparable.",
 
     "contact_title": "Contact",
-    "contact_info_one": "Que vous soyez un organisme privé, public ou un particulier, si vous souhaitez obtenir de plus amples informations sur mes services, n'hésitez pas à me contacter par email, sur LinkedIn, ou sur Twitter.",
+    "contact_info_one": "Que vous soyez un organisme privé, public ou un particulier, si vous souhaitez obtenir de plus amples informations sur mes services, vous pouvez me contacter par : email, LinkedIn, ou Twitter",
     "contact_info_second": "Le devis est gratuit.",
     "contact_info_third": "Nos échanges de documents sont sécurisés sur les serveurs Amazon Web Services via l'interface de l'outil de gestion de projets Notion.",
 

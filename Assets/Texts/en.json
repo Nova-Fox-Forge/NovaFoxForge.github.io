@@ -43,7 +43,7 @@
     ],
     
     "technology_title": "The technology",
-    "technology_info_one": "The Unreal Engine 5 3D engine, its plugins, and its large asset library (objects, animations, special effects, code...) enable quick creations in various styles, such as cartoon, photorealistic, futuristic...", 
+    "technology_info_one": "Unreal Engine 5, a 3D engine, its plugins and its large asset library (objects, animations, special effects, code...) enable quick creations in various styles, such as cartoon, photorealistic, futuristic...", 
     "technology_info_second": "Its rapid evolution allows us to imagine increasingly realistic and dynamic creations in the coming years.",
 
     "deliverables_title": "The deliverables",
@@ -61,7 +61,7 @@
     
     "models_first": "Model of a street in Toulouse: Le chemin de Bordeblanche",
     "models_first_desc_one": "This partial reproduction is similar to a digital twin, aiming to 'copy' a real-world representation.",
-    "models_first_desc_second": "You can compare with Google Map's Street View mode: https://shorturl.at/aCSUZ.",
+    "models_first_desc_second": "You can compare with Google Map's Street View mode.",
     "models_first_desc_third": "Features: opening and closing of gates and blocks, night mode, first person mode, car driving.",
 
     "models_second": "Model of a modern residential neighborhood",
@@ -74,7 +74,7 @@
     "models_third_desc_second": "Features: metro travel, elevators, first person view.",
 
     "models_videoGame": "Complete video game", 
-    "models_videoGame_desc_one": "I also designed a video game available on Windows and Android via Unreal Engine 5.",
+    "models_videoGame_desc_one": "I also designed a video game via Unreal Engine 5, Endless Money, available on Windows and Android.",
     "models_videoGame_desc_second": "Creating and delivering a video game is a complex project.",
     "models_videoGame_desc_third": " This experience taught me rigor and many skills necessary for using the engine.",
 
@@ -87,8 +87,7 @@
     "about_info_three": "My ambition is to create high-quality projects that transform your concepts into interactive 3D environments, offering unparalleled visual clarity.",
     
     "contact_title": "Contact",
-    "contact_description": "Whether you are a private, public organization, or an individual, if you want more information about my services, feel free to contact me by email, on LinkedIn, or on Twitter.", 
-    "contact_info_one": "Whether you are a private, public organization, or an individual, if you want more information about my services, feel free to contact me by email, on LinkedIn, or on Twitter.", 
+    "contact_info_one": "Whether you are a private, public organization, or an individual, if you want more information about my services, you can contact me by: email, LinkedIn, or Twitter", 
     "contact_info_second": "The estimate is free.",
     "contact_info_third": "Our document exchanges are secured on Amazon Web Services servers via the Notion project management tool interface.",
     
