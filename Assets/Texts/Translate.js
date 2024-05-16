@@ -7,9 +7,12 @@ let currentLanguage;
 export function init()
 {
     currentLanguage = localStorage.getItem('currentLanguage')
+
     if(currentLanguage == undefined)
     {
-        saveCurrentLanguage(navigator.language || navigator.userLanguage);
+        currentLanguage = navigator.language || navigator.userLanguage;
+        currentLanguage = currentLanguage.substring(0, 2); // Chrome return more than 2 characters for language, and we just need first 2
+        saveCurrentLanguage(currentLanguage);
     }
     loadLanguage();
     initLanguageSwitcher();
@@ -18,6 +21,7 @@ export function init()
 export function loadLanguage(){
     document.addEventListener('DOMContentLoaded', function() {
             currentLanguage = localStorage.getItem('currentLanguage');
+            currentLanguage = currentLanguage.substring(0, 2);
             fetch(`/Assets/Texts/${currentLanguage}.json`)
             .then(response => response.json())
             .then(data => applyTranslations(data));
