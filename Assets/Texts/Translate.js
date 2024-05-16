@@ -1,4 +1,4 @@
-import { saveCurrentLanguage } from '/Utils/Global.js';
+import { saveCurrentLanguage, keywordsToLinks } from '/Utils/Global.js';
 import { moveFooter } from '/Utils/Utils.js';
 
 let currentLanguage;
@@ -71,15 +71,31 @@ export function applyTranslations(translations) {
                     element.innerHTML = translations[key].map(item => `<li>${item}</li>`).join('');
                 
                 // Manage other tags
-                } else {
-                    // Otherwise, set the text content directly
-                    element.textContent = translations[key];
+                } else {               
+                    // element.textContent = translations[key];
+                    // texts with a link
+                    console.log(keywordsToLinks);
+                    keywordsToLinks.forEach(function(value, keyword) {
+                        // console.log(keyword + " = " + value);
+                        // console.log(value + " = " + value);
+                        if(translations[key].includes(keyword))
+                        {
+                            // alert("HELLO");
+                            const regex = new RegExp(`\\b${keyword}\\b`, 'g'); // Match whole word, globally
+                            element.textContent = element.textContent.replace(regex, `<a href="${value}">${keyword}</a>`);
+                            element.innerHTML = element.textContent;
+                        } 
+                        else // Otherwise, set the text content directly
+                        {
+                            element.textContent = translations[key];
+                        }
+                        
+                    })
                 }
             }
         }
     }
     moveFooter(localStorage.getItem('currentMenuDisplayed'));
 }
-
 
 init();

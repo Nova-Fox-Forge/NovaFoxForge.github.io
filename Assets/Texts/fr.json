@@ -85,8 +85,10 @@
     "about_info_third": " Mon ambition est de réaliser des projets de qualité qui transformeront vos concepts en environnements 3D interactifs, offrant une clarté visuelle incomparable.",
 
     "contact_title": "Contact",
-    "contact_description": "Que vous soyez un organisme privé, public ou un particulier, si vous souhaitez obtenir de plus amples informations sur mes services, n'hésitez pas à me contacter par mail, sur Linkedin, ou sur Twitter. Le devis est gratuit. Nos échanges de documents sont sécurisés sur les serveurs Amazon Web Services via l'interface de l'outil de gestion de projets Notion.",
-    
+    "contact_info_one": "Que vous soyez un organisme privé, public ou un particulier, si vous souhaitez obtenir de plus amples informations sur mes services, n'hésitez pas à me contacter par email, sur LinkedIn, ou sur Twitter.",
+    "contact_info_second": "Le devis est gratuit.",
+    "contact_info_third": "Nos échanges de documents sont sécurisés sur les serveurs Amazon Web Services via l'interface de l'outil de gestion de projets Notion.",
+
     "method_title": "Méthode de travail",
     "method_description": "La communication est primordiale pour la réussite de nos projets. Je reste ainsi dédié à votre mission tant que celle-ci n'est pas complète et je reste aisément accessible pour que la mission se déroule dans les meilleurs conditions.",
 

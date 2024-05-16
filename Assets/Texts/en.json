@@ -87,7 +87,10 @@
     "about_info_three": "My ambition is to create high-quality projects that transform your concepts into interactive 3D environments, offering unparalleled visual clarity.",
     
     "contact_title": "Contact",
-    "contact_description": "Whether you are a private, public organization, or an individual, if you want more information about my services, feel free to contact me by email, on LinkedIn, or on Twitter. The quote is free. Our document exchanges are secured on Amazon Web Services servers via the Notion project management tool interface.",
+    "contact_description": "Whether you are a private, public organization, or an individual, if you want more information about my services, feel free to contact me by email, on LinkedIn, or on Twitter.", 
+    "contact_info_one": "Whether you are a private, public organization, or an individual, if you want more information about my services, feel free to contact me by email, on LinkedIn, or on Twitter.", 
+    "contact_info_second": "The estimate is free.",
+    "contact_info_third": "Our document exchanges are secured on Amazon Web Services servers via the Notion project management tool interface.",
     
     "method_title": "Working method",
     "method_description": "Communication is crucial for the success of our projects. I remain dedicated to your mission until it is complete and easily accessible to ensure the mission runs smoothly.",
