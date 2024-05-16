@@ -1,13 +1,18 @@
-function goHome() 
-{
-    window.location.href = '/';
-}
+import { goHome, openLegalNotice } from "/Utils/Utils.js";
+
 
 function init()
 {
-  var logo = document.getElementsByClassName("c_logo");
-  logo.item(0).style.marginLeft = document.documentElement.scrollWidth / 2 + "px";
-  console.log(window.currentLanguage);
+  let logo = document.getElementById("logo");
+  logo.style.marginLeft = document.documentElement.scrollWidth / 2 + "px";
+  initHTML();
+}
+
+function initHTML()
+{
+    document.getElementById("c_title").addEventListener("click", goHome);
+    document.getElementById("logo").addEventListener("click", goHome);
+    document.getElementById("btnLegaleNotice").addEventListener("click", openLegalNotice);
 }
 
 init();

@@ -2,11 +2,11 @@ body {
       font-family: "Bitter", "Verdana";
 }
 
-footer {
-  display: flex;
-  margin-bottom: 100px;
+footer {  
+  margin-bottom:3%;
+  text-align: center;
   position: absolute;
-  height: 150px;
+  width: 100%;
 }
 
 div {
@@ -126,7 +126,8 @@ input {
 }
 
 #btnLegaleNotice {
-  margin-top: 0px;
+  margin-left: 0px;
+  margin-top: 1%;
 }
 
 #project_description {
@@ -161,7 +162,7 @@ option {
   width: 8em;
   height: 60px;
   font-size: large;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: 30px;
   background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);  
   border-radius: 42px;
@@ -301,7 +302,7 @@ option {
 
   #c_title {
     text-align: center;
-    font-size: 80px;
+    font-size: xx-large;
   }
   
   #c_sub_title {

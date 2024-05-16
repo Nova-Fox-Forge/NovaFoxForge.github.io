@@ -1,23 +1,10 @@
-// import { moveFooter } from "./Utils/Utils";
+import { moveFooter, openLegalNotice, goHome, detectChrome} from "/Utils/Utils.js";
+import { saveCurrentMenuDisplayed } from "/Utils/Global.js";
 
 var firstMenu = "LeProjet";
 
-function detectChrome(){
-    let userAgent = navigator.userAgent;
-    var texts = document.querySelectorAll('.c_text');
-    if (/Chrome/.test(userAgent) && !/Chromium/.test(userAgent)) {
-        texts.forEach(function(element) {
-            element.style.lineHeight = '2em'; 
-        });
-    } else {
-        texts.forEach(function(element) {
-            element.style.lineHeight = '1.4em';
-        });
-    }
-}
-
 // Dark theme
-function setDarkTheme()
+export function setDarkTheme()
 {
     var checkboxChangeTheme = document.getElementById('changeTheme');
     checkboxChangeTheme.addEventListener('change', function() {
@@ -29,10 +16,9 @@ function setDarkTheme()
             document.body.style.backgroundColor = 'white';
         }
     });
-    
 }
 
-function changeFont(){
+export function changeFont(){
     var checkboxChangeFont = document.getElementById('changeFont');
     checkboxChangeFont.addEventListener('change', function() {
         if (this.checked) {
@@ -47,8 +33,9 @@ function changeFont(){
 }
 
 /* Buttons */
-function upOpacity(id) {
-    
+export function changePage(id) {
+
+    saveCurrentMenuDisplayed(id);
 
     var menuToDisplay = document.getElementById(id);
     var otherMenus = document.querySelectorAll('.menu:not(#' + id + ')');
@@ -71,36 +58,27 @@ function upOpacity(id) {
         otherButton.style.backgroundImage = 'radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%)';
     });
 
-    console.log(id)
-
     moveFooter(id);
 }
 
-function moveFooter(id)
+function init()
 {
-    // Move footer
-    var menuDisplayed = document.getElementById(id);
-    var footer = document.getElementById('c_footer');
-    var header = document.getElementsByClassName('c_header');
-
-    console.log(menuDisplayed.offsetHeight)
-
-    footer.style.top = menuDisplayed.offsetHeight + header.item(0).offsetHeight + footer.offsetHeight + "px";
-    footer.style.left = document.documentElement.scrollWidth / 2 - footer.offsetWidth / 2 + "px";    
+    detectChrome();
+    setDarkTheme();
+    changeFont();
+    changePage(firstMenu)
+    initHTML();
 }
 
-function openLegalNotice()
+function initHTML()
 {
-    window.location.href = '/LegalNotice/LegalNotice.html';
+    document.getElementById("c_title").addEventListener("click", goHome);
+    document.getElementById("logo").addEventListener("click", goHome);
+    document.getElementById("btnLegaleNotice").addEventListener("click", openLegalNotice);
+    document.getElementById("btnLeProjet").addEventListener("click", function(){changePage('LeProjet')});
+    document.getElementById("btnLesMaquettes").addEventListener("click", function(){changePage('LesMaquettes')});
+    document.getElementById("btnNovaFoxForge").addEventListener("click", function(){changePage('NovaFoxForge')});
+    document.getElementById("btnParametres").addEventListener("click", function(){changePage('Parametres')});
 }
 
-function goHome()
-{
-    window.location.href = '/';
-}
-
-detectChrome();
-setDarkTheme();
-changeFont();
-upOpacity(firstMenu)
-// upOpacity(firstMenu).then(moveFooter(firstMenu));
+init();

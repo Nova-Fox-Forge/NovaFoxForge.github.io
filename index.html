@@ -24,23 +24,20 @@
   
 <div class="c_header">
   <div id="header_title_div">
-    <h1 id="c_title" onclick="goHome()">Nova Fox Forge</h1>
+    <h1 id="c_title">Nova Fox Forge</h1>
     <h2 id="header_title" style="margin-left: 0px"></h2>
     <h4 id="header_subtitle_one"></h4>
     <h4 id="header_subtitle_second"></h4>
   </div>
   
   <div>
-    <button type="button" id="btnLeProjet" class="header_button" onclick="upOpacity('LeProjet')"></button>
-    <button type="button" id="btnLesMaquettes" class="header_button" onclick="upOpacity('LesMaquettes')"></button>
+    <button type="button" id="btnLeProjet" class="header_button"></button>
+    <button type="button" id="btnLesMaquettes" class="header_button"></button>
+    <button type="button" id="btnNovaFoxForge" class="header_button"></button>
+    <button type="button" id="btnParametres" class="header_button"></button>
   </div>
-  
-  <div>
-    <button type="button" id="btnNovaFoxForge" class="header_button" onclick="upOpacity('NovaFoxForge')"></button>
-    <button type="button" id="btnParametres" class="header_button" onclick="upOpacity('Parametres')"></button>
-  </div>
-  
-  <img onclick="goHome()" class="c_logo" src="Assets/Images/logoFFF_round_small.png" />
+    
+  <img id="logo" class="c_logo" src="Assets/Images/logoFFF_round_small.png" />
 </div>
 
 <div class="main_container">
@@ -73,9 +70,9 @@
 
       <h2 id="technology_title"></h2>
       <div class="c_text"> 
-        <p id="technology_info_one"></p> 
+        <p id="technology_info_one"> </p> 
         <!-- Le moteur 3D <a href="https://www.unrealengine.com/fr/unreal-engine-5">Unreal Engine 5</a> -->
-        <p id="technology_info_second"></p>
+        <p id="technology_info_second"> </p>
       </div>
 
       <h2 id="deliverables_title"></h2>
@@ -108,7 +105,7 @@
         
       <h3 id="models_second"></h3>
       <div class="c_video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/FADoOENxcH0?si=-EiQzd97QoJMKGq-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FADoOENxcH0?si=-EiQzd97QoJMKGq-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <div class="c_text">
           <p id="models_second_desc_one"></p>
           <p id="models_second_desc_second"></p>
@@ -118,7 +115,7 @@
 
       <h3 id="models_third"></h3>
       <div class="c_video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/NnRRoWq9TG8?si=sbZQheqsIpsH0wWa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NnRRoWq9TG8?si=sbZQheqsIpsH0wWa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <div class="c_text">
           <p id="models_third_desc_one"></p>
           <p id="models_third_desc_second"></p>
@@ -127,7 +124,8 @@
 
       <h3 id="models_videoGame"></h3>
       <div class="c_video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/xBdU2O0g0pk?si=Yisdr0VJgY4P2uy8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xBdU2O0g0pk?si=Yisdr0VJgY4P2uy8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="origin" allowfullscreen></iframe><br>
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/xBdU2O0g0pk?si=Yisdr0VJgY4P2uy8" title="YouTube video player" frameborder="0" referrerpolicy="strict-origin-when-cross-origin"></iframe><br> -->
         <div class="c_text">
           <p id="models_videoGame_desc_one"></p>
           <!-- <a href="https://foxbandykoot.itch.io/endless-money">Windows</a> et <a href="https://play.google.com/store/apps/details?id=com.FoxBandyKoot.EndlessMoney">Android</a> via Unreal Engine 5. -->
@@ -149,20 +147,21 @@
     <div class="menu" id="NovaFoxForge">
       <h2 id="about_title"></h2>
       <div class="c_text">
-        <p id="about_info_one">Nova Fox Forge est une entreprise basée à Toulouse, spécialisée dans la visualisation et la communication de projets grâce aux nouvelles technologies.</p>
-        <p id="about_info_second">Après cinq ans d'expériences de développeur au sein d'une grande entreprise française, j'ai fait le choix de m'engager dans l'aventure entrepreneuriale, convaincu que cette voie me permettrait de pleinement exploiter mon potentiel.</p>
-        <p id="about_info_third">Mon ambition est de réaliser des projets de qualité qui offriront une clarté visuelle incomparable à vos concepts.</p>
+        <p id="about_info_one"></p>
+        <p id="about_info_second"></p>
+        <p id="about_info_third"></p>
       </div>
 
       <h2 id="contact_title"></h2>
       <div class="c_text" id="contact_description"> 
         <p id="">
-          Que vous soyez un organisme privé, public ou un particulier, si vous souhaitez obtenir de plus amples informations sur mes services, n'hésitez pas à me contacter par <a href="mailto:contact@novafoxforge.com">mail</a>,
-          <a href="https://www.linkedin.com/in/charlylerenard/">sur Linkedin</a>,
-          ou sur <a href="https://twitter.com/NovaFoxForge">Twitter.</a>
+          
+          <!-- <a href="mailto:contact@novafoxforge.com">mail</a>, -->
+          <!-- <a href="https://www.linkedin.com/in/charlylerenard/">sur Linkedin</a>, -->
+          <!-- ou sur <a href="https://twitter.com/NovaFoxForge">Twitter.</a> -->
         </p>
-        <p id="">Le devis est gratuit.</p>
-        <p id="">Nos échanges de documents sont sécurisés sur les serveurs <a href="https://aws.amazon.com/fr/security/">Amazon Web Services</a> via l'interface de l'outil de gestion de projets <a href="https://www.notion.so/fr-fr/security">Notion</a>.<br></p>
+        <p id="Le devis est gratuit"></p>
+        <!-- <p id="">Nos échanges de documents sont sécurisés sur les serveurs <a href="https://aws.amazon.com/fr/security/">Amazon Web Services</a> via l'interface de l'outil de gestion de projets <a href="https://www.notion.so/fr-fr/security">Notion</a>.<br></p> -->
       </div>
       
       <h2 style="visibility:hidden" id="method_title"></h2>
@@ -174,7 +173,7 @@
     
     <!-- DEBUT MENU PARAMETRES -->
     <div class="menu" id="Parametres">
-      <h2></h2>
+      <h2 id="settings_title"></h2>
       <div class="c_text">
         <div>
           <select id="languageSwitcher">
@@ -196,11 +195,10 @@
 <footer id="c_footer">
 
   <div id="brandWebSite"></div>
-  <button type="button" id="btnLegaleNotice" class="header_button" onclick="openLegalNotice()"></button>
+  <button type="button" id="btnLegaleNotice" class="header_button"></button>
 
 </footer>
 
 <script type="module" src="./Assets/Texts/Translate.js"></script>
-<!-- <script type="module" src="./Assets/Utils/Utils.js"></script> -->
-<script src="./script.js"></script>
+<script type="module" src="./script.js"></script>
 </html>

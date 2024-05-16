@@ -12,27 +12,24 @@
 
    <link rel="stylesheet" type="text/css" href="./LegalNotice.css">
    <style>@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');</style>
-
-   <script src="LegalNotice.js"></script>
-   <script type="module" src="/Assets/Texts/Translate.js"></script>
-   
+ 
 </head>
 <body>
   <div class="c_header">
     
     <div>
-      <h1 id="c_title" onclick="goHome()">Nova Fox Forge</h1>
+      <h1 id="c_title">Nova Fox Forge</h1>
       <!-- <h2 id="c_sub_title">Créateur d'environnements virtuels interactifs</h2>
       <h4>Donnez envie à vos clients de vous sélectionner</h4> -->
       <h2 id="header_title" style="margin-left: 0px"></h2>
       <h4 id="header_subtitle_one"></h4>
       <h4 id="header_subtitle_second"></h4>
     </div>
-    <img class="c_logo" src="/Assets/Images/logoFFF_round_small.png" onclick="goHome()" />
+    <img id="logo" class="c_logo" src="/Assets/Images/logoFFF_round_small.png"" />
 
   </div>
 
-  <div class="menu">
+  <div id="menuLegalNotice" class="menu">
   <h2 id="legal_mentions_title"></h2>
     <div class="c_text">
       <p id="owner_info_title"></p>
@@ -44,4 +41,13 @@
   </div>
 </body>
 
+<footer id="c_footer">
+
+  <div id="brandWebSite"></div>
+  <button type="button" id="btnLegaleNotice" class="header_button"></button>
+
+</footer>
+
+<script type="module" src="/Assets/Texts/Translate.js"></script>
+<script type="module" src="LegalNotice.js"></script>
 </html>
