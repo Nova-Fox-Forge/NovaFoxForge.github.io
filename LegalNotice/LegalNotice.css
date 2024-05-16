@@ -9,10 +9,7 @@ footer {
     width: 100%;
     margin-left: 0px;
     margin-top: 1%;
-}
-
-div {
-    margin-top: 10px;
+    margin-top: 1%;
 }
 
 br {
@@ -76,7 +73,7 @@ input {
 }
 
 .c_logo {
-  margin-left:5%;
+  margin: auto;
   height: 200px;
 }
 
