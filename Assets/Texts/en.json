@@ -1,7 +1,7 @@
 {
     "header_title": "Creator of interactive virtual environments",
-    "header_subtitle_one": "Make your prospects want to choose you",
-    "header_subtitle_second": "Visualize your concepts using interactive 3D modeling",
+    "header_subtitle_one": "",
+    "header_subtitle_second": "",
 
     "btnLeProjet":"The project",
     "btnLesMaquettes":"The models",
@@ -9,38 +9,38 @@
     "btnParametres":"Settings",
 
     "project_title": "The project",
-    "project_description": "Nova Fox Forge creates interactive environments that help understand and communicate your project.",
-    "project_features_announce": "These interactive environments can include many features such as:",
-    "project_features": [
-        "exploring the environment like a game, on foot, by car, by bus, by metro, by cable car, or in free view mode.",
+    "project_info_one": "Visualize your concepts using interactive 3D",
+    "project_info_two": "Nova Fox Forge creates interactive environments in many fields: video games, communication, animation, urban planning.",
+    
+    "possibilities_urban_planning_one": "Some examples in urban planning:",
+    "possibilities_urban_planning_two": [
+        "eco-neighborhoods, intergenerational residences, mixed zones, ERP, private homes.",
+        "green spaces: parks, community gardens, urban forests.",
+        "infrastructure for collective transport, energy production, or cultural, sporting, entertainment-related infrastructure..."
+    ],
+
+    "possibilities_urban_planning_three": "These interactive environments can include many features such as:",
+    "possibilities_urban_planning_four":[
+        "exploring the environment like a game, on foot, by car, by bus, by metro, by cable car, or in free view mode for example.",
         "displaying flows of pedestrians, cyclists, motorists.",
-        "displaying information such as the number of pedestrians, the distance between two points, explanations...",
+        "displaying information such as the number of pedestrians, the distance between two points, 3D texts...",
         "interacting with elements like doors, traffic lights, vegetation...",
         "easily transitioning from one scene to another with a single click.",
         "simulating specific situations, such as setting up an emergency bus line in case of metro issues."
-    ],
+    ],  
 
-    "possibilities_title": "The possibilities",
-    "possibilities_description": "The possibilities are numerous:",
-    "possibilities_features": [
-        "eco-neighborhoods, intergenerational residences, mixed zones, ERP...",
-        "energy production systems: photovoltaics, biogas plants, wind turbines...",
-        "green spaces: parks, community gardens, urban forests...",
-        "sports infrastructures: multi-sport halls, outdoor fields, swimming pools...",
-        "cultural or entertainment infrastructures: theaters, cinemas, nightlife, game rooms, light festivals, Christmas markets, museums...",
-        "public transport infrastructures: buses, metros, cable cars, train stations, park-and-ride facilities...",
-        "various infrastructures: administrations, health, offices...",
-        "private houses"
-    ],
-
-    "advantages_title": "The advantages",
-    "advantages_description": [
+    "advantages_communication_one": "Advantages for communication",
+    "advantages_communication_two": [
         "This service would allow you to adopt innovative communication aimed at arousing the interest of new generations.",
         "In addition, it would help to facilitate understanding during meetings with, for example, better visualization of the landscape impact of the project.",
         "Also, the rapprochement towards more modern urban planning concepts such as the quarter-hour city, multimodal transit, multiple-use zones or even the promotion of more sustainable infrastructure.",
         "Lastly, putting the virtual environment online would allow the general public to immerse themselves in it and increase the visibility of the projects.",
         "Other more advanced possibilities can be considered, such as the creation of mini-films or virtual reality, with the aim of amplifying immersion."
     ],
+
+    "video_game_title": "Video game experiences",
+    "video_game_description": "The world of video games is evolving and the use of the latest generation tools is a crucial asset for the success of your project.",
+    "video_game_info_one": "Whether for serious games, learning or classic video games, we use the most advanced technology for an ever more fun experience.",
     
     "technology_title": "The technology",
     "technology_info_one": "Unreal Engine 5, a 3D engine, its plugins and its large asset library (objects, animations, special effects, code...) enable quick creations in various styles, such as cartoon, photorealistic, futuristic...", 
@@ -74,20 +74,19 @@
     "models_third_desc_second": "Features: metro travel, elevators, first person view.",
 
     "models_videoGame": "Complete video game", 
-    "models_videoGame_desc_one": "I also designed a video game via Unreal Engine 5, Endless Money, available on Windows and Android.",
+    "models_videoGame_desc_one": "We also designed a video game via Unreal Engine 5, Endless Money, available on Windows and Android.",
     "models_videoGame_desc_second": "Creating and delivering a video game is a complex project.",
-    "models_videoGame_desc_third": " This experience taught me rigor and many skills necessary for using the engine.",
+    "models_videoGame_desc_third": "Each creation strengthens our mastery of the 3D engine.",
 
     "models_end_one": "Other models are currently being produced.",
-    "models_end_second": "Whether it is an architectural project, an industrial site, a presentation animation or support in video game development, my know-how will offer you a unique interactive experience.",
+    "models_end_second": "Whether it is an urban planning project, a presentation animation or support in video game development, our know-how will offer you a unique interactive experience.",
 
-    "about_title": "About me",
+    "about_title": "About us",
     "about_info_one": "Nova Fox Forge is a company based in Toulouse, specializing in project visualization and communication through new technologies.",
-    "about_info_second": "After five years of experience as a developer in a large French company, I decided to embark on the entrepreneurial adventure, convinced that this path would allow me to fully exploit my potential.",
-    "about_info_three": "My ambition is to create high-quality projects that transform your concepts into interactive 3D environments, offering unparalleled visual clarity.",
+    "about_info_two": "Our ambition is to carry out quality projects that will transform your concepts into interactive 3D environments, to entertain, communicate or learn.",
     
     "contact_title": "Contact",
-    "contact_info_one": "Whether you are a private, public organization, or an individual, if you want more information about my services, you can contact me by: email, LinkedIn, or Twitter", 
+    "contact_info_one": "Whether you are a private, public organization, or an individual, if you want more information about my services, you can contact us by: email, LinkedIn, or Twitter", 
     "contact_info_second": "The estimate is free.",
     "contact_info_third": "Our document exchanges are secured on Amazon Web Services servers via the Notion project management tool interface.",
     
