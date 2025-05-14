@@ -5,6 +5,7 @@
     
     "btnLeProjet":"Le projet",
     "btnLesMaquettes":"Les maquettes",
+    "btnLesClients":"Les clients",
     "btnNovaFoxForge":"Nova Fox Forge",
     "btnParametres":"Paramètres",
 
@@ -79,6 +80,13 @@
     
     "models_end_one": "D'autres maquettes sont en cours de réalisations.",
     "models_end_second": "Que ce soit un projet d'urbanisme, une animation de présentation ou du support dans le développent de jeu vidéo, notre savoir-faire vous offrira une expérience interactive inédite.",
+
+    "HydraEnergy": "Hydra Energie - Présentation du projet Auton'Home",
+    "clients_title": "Les clients",
+    "clients_description": "Les projets clients réalisés sur Unreal Engine 5.",
+    "clients_hydra_energy_desc_one": "Hydra Energie est une entreprise spécialisée dans la production et le stockage d'hydrogène vert.",
+    "clients_hydra_energy_desc_two": "Nous avons réalisé une vidéo de présentation de leur projet Auton'Home.",
+    "clients_hydra_energy_desc_third": "Projet qui a pour but de rendre un habitat autonome en création et stockage énergie.",
 
     "about_title": "Qui sommes-nous ?",
     "about_info_one": "Nova Fox Forge est une entreprise basée à Toulouse, spécialisée dans la création 3D grâce aux nouvelles technologies.",

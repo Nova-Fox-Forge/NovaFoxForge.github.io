@@ -11,7 +11,7 @@ export function setDarkTheme()
         if (this.checked) {
             document.body.style.color = 'white';
             document.body.style.backgroundColor = 'black';
-        } else {
+        } else { 
             document.body.style.color = 'black';
             document.body.style.backgroundColor = 'white';
         }
@@ -77,6 +77,7 @@ function initHTML()
     document.getElementById("btnLegaleNotice").addEventListener("click", openLegalNotice);
     document.getElementById("btnLeProjet").addEventListener("click", function(){changePage('LeProjet')});
     document.getElementById("btnLesMaquettes").addEventListener("click", function(){changePage('LesMaquettes')});
+    document.getElementById("btnLesClients").addEventListener("click", function(){changePage('LesClients')});
     document.getElementById("btnNovaFoxForge").addEventListener("click", function(){changePage('NovaFoxForge')});
     document.getElementById("btnParametres").addEventListener("click", function(){changePage('Parametres')});
 }

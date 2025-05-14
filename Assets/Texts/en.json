@@ -5,6 +5,7 @@
 
     "btnLeProjet":"The project",
     "btnLesMaquettes":"The models",
+    "btnLesClients":"The clients",
     "btnNovaFoxForge":"Nova Fox Forge",
     "btnParametres":"Settings",
 
@@ -78,6 +79,14 @@
     "models_videoGame_desc_second": "Creating and delivering a video game is a complex project.",
     "models_videoGame_desc_third": "Each creation strengthens our mastery of the 3D engine.",
 
+    "HydraEnergy": "Hydra Energie - Presentation of Auton'Home project",
+    "clients_title": "The clients",
+    "clients_description": "Client projects carried out on Unreal Engine 5.",
+    "clients_hydra_energy_desc_one": "Hydra Energie is a company specializing in the production and storage of green hydrogen.",
+    "clients_hydra_energy_desc_two": "We made a video presentation of their Auton'Home project.",
+    "clients_hydra_energy_desc_third": "Project which aims to make a habitat autonomous in energy creation and storage.",
+
+    
     "models_end_one": "Other models are currently being produced.",
     "models_end_second": "Whether it is an urban planning project, a presentation animation or support in video game development, our know-how will offer you a unique interactive experience.",
 
