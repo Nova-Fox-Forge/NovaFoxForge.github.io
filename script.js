@@ -2,7 +2,7 @@ import { moveFooter, openLegalNotice, goHome, detectChrome} from "/Utils/Utils.j
 import { saveCurrentMenuDisplayed } from "/Utils/Global.js";
 
 var firstMenu = "LeProjet";
-
+var logo = "Assets/Images/logoFFF_round_small.png";
 // Dark theme
 export function setDarkTheme()
 {
@@ -11,9 +11,14 @@ export function setDarkTheme()
         if (this.checked) {
             document.body.style.color = 'white';
             document.body.style.backgroundColor = 'black';
+            logo = "Assets/Images/logoFFF_round_small.png";
+            document.getElementById("logo").src = logo;
         } else { 
             document.body.style.color = 'black';
             document.body.style.backgroundColor = 'white';
+            logo = "Assets/Images/logoFFF_round_small_white.png";
+            document.getElementById("logo").src = logo;
+
         }
     });
 }
