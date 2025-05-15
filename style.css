@@ -2,10 +2,17 @@ body {
       font-family: "Bitter", "Verdana";
 }
 
+#logo {
+  grid-column: 3;
+  justify-self: end;
+  width: clamp(100px, 90%, 280px);
+  height: auto;
+  transition: width 0.3s, height 0.3s;
+}
+
 footer {  
-  margin-bottom:3%;
+  margin-bottom: 3%;
   text-align: center;
-  position: absolute;
   width: 100%;
 }
 
@@ -20,7 +27,6 @@ li {
 }
 
 h2 {
-      margin-left: 50px;
       margin-top: 50px;
       font-size: xx-large;
 }
@@ -42,14 +48,23 @@ input {
 }
 
 .main_container {
-     margin-bottom: 50px;
+  margin: 0 auto;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  /* Optional: set a max-width for large screens */
+  max-width: 1200px;
+  box-sizing: border-box;}
+
+/* Hidded menu */
+.menu {
+    display: none;
+    width: 100%;
+    transition: opacity 0.5s ease-in-out;
 }
 
-.menu {
-     position: absolute;
-     padding: 20px;
-     opacity: 0;
-     transition: opacity 0.5s ease-in-out;
+/* Show the active menu */
+.menu.active {
+  display: block;
 }
 
 .c_video {
@@ -59,10 +74,33 @@ input {
 }
 
 .c_header {
-     margin-left: 75px;
-     margin-right: 75px; 
-     margin-top: 40px; 
-     display: flex;
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+#header_title_div{
+  grid-column: 1;
+  justify-self: start;
+}
+
+#header_title{
+  text-align: center;
+}
+
+#header_buttons {
+  grid-column: 2;
+  justify-self: center;
+}
+
+#header_buttons_div {
+  grid-column: 2;
+  justify-self: center;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 #c_title {
@@ -74,11 +112,6 @@ input {
     margin-left: 0px;
 }
 
-.c_logo {
-     margin: auto;
-     height: 200px;
-}
-
 .c_iframe {
      margin-top: 0px;
 }
@@ -88,15 +121,6 @@ input {
      margin-left: 50px;
      font-size: large;
 }
-
-#header_title_div{
-  margin-right: 1%;
-}
-
-#header_title{
-  text-align: center;
-}
-
 
 #prototypes {
      margin-left: 50px;
@@ -126,10 +150,6 @@ input {
   margin-top: 40px;
 }
 
-#btnLegaleNotice {
-  margin-left: 0px;
-  margin-top: 1%;
-}
 
 #project_description {
   font-weight: bold;
@@ -141,7 +161,6 @@ input {
   height: 60px;
   font-size: large;
   border-radius: 42px;
-  border: 0;
   color: #fff;
   box-shadow: 6px 0px 0px #00E6F6;
   outline: transparent;
@@ -152,15 +171,10 @@ input {
   text-align: center;
 }
 
-#header_buttons {
-  width: 42%;
-}
-
 
 option {
   color: black;
 }
-
 
 .header_button,
 .header_button:after {
@@ -168,8 +182,6 @@ option {
   width: 8em;
   height: 60px;
   font-size: large;
-  margin-left: 5%;
-  margin-top: 30px;
   background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);  
   border-radius: 42px;
   border: 0;
@@ -192,7 +204,6 @@ option {
 
   content: 'Nova Fox Forge';
   display: block;
-  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -206,6 +217,12 @@ option {
   animation: 1s glitch;
   animation-timing-function: steps(2, end);
   width: 100%;
+}
+
+#btnLegaleNotice
+{
+  width: 15%;
+  margin-top: 2vw;
 }
 
 @keyframes glitch {
@@ -258,11 +275,11 @@ option {
 /* MOBILES */
 @media only screen and (max-width: 1081px) {
   h2 {
-    font-size:50px;
+    font-size:40px;
   }
   
   h3 {
-    font-size:40px;
+    font-size:30px;
     text-align: center;
   }
 
@@ -277,13 +294,6 @@ option {
     display:block;
   }
 
-  .c_logo {
-    height: 150px;
-    position: absolute;
-    top: 1%;
-    right: 3%;
-  }
-
   .c_video {
     display: block;
     text-align: center;
@@ -292,7 +302,7 @@ option {
 
   .c_text {
     font-size: 30px;
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: left;
   }
 
@@ -300,9 +310,7 @@ option {
   .header_button:after {
     width: 29%;
     height: 60px;
-    margin-left: 10%;
-    margin-right: 10%;
-    line-height: 88px;
+    line-height: 59px;
     font-size: 35px;
   }
 
@@ -321,3 +329,93 @@ option {
     text-align: center;
  }
 }
+
+
+/* Make header and buttons stack vertically on small screens */
+
+@media (max-width: 700px) {
+  h2 {
+    font-size: 30px;
+    margin: auto;
+  }
+  
+  h3 {
+    font-size:20px;
+    text-align: center;
+  }
+
+  #c_title {
+    display: none;
+  }
+  .c_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+  }
+  #header_title_div {
+    order: 1;           /* Title/subtitles after logo */
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  #header_buttons_div {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+    width: 50%;
+  }
+  .header_button{
+    width: 125%;
+    margin-top: inherit;
+    font-size: 20px
+  }
+
+    #header_logo_div {
+    order: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #logo {
+    order: 0;           /* Logo first */
+    width: 50%;
+  }
+  .main_container {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    max-width: 100vw;
+  }
+
+  .c_video iframe {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 200px;
+  }
+
+  #btnLegaleNotice
+  {
+    width: 50%;
+    margin-top: 2vw;
+  }
+
+  body, html {
+    box-sizing: border-box;
+  }
+
+  .main_container, .c_text {
+    width: 100%;
+    overflow-x: auto;
+  }
+  .c_text {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: left;
+  }
+}
+
