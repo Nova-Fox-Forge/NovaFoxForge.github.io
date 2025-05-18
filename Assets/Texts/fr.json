@@ -3,9 +3,9 @@
     "header_subtitle_one": "",
     "header_subtitle_second": "",
     
-    "btnLeProjet":"Le projet",
-    "btnLesMaquettes":"Les maquettes",
-    "btnLesClients":"Les clients",
+    "btnLeProjet":"Projet",
+    "btnLesMaquettes":"Maquettes",
+    "btnLesClients":"Clients",
     "btnNovaFoxForge":"Nova Fox Forge",
     "btnParametres":"Paramètres",
 
@@ -100,15 +100,14 @@
     "method_title": "Méthode de travail",
     "method_description": "La communication est primordiale pour la réussite de nos projets. Nous restons ainsi dédié à votre mission tant que celle-ci n'est pas complète et restons aisément accessible pour que celle-ci se déroule dans les meilleurs conditions.",
 
-    "brandWebSite":"© 2024 Nova Fox Forge - site réalisé par Nova Fox Forge",
+    "brandWebSite":"© 2025 Nova Fox Forge - site réalisé par Nova Fox Forge",
     "btnLegaleNotice":"Mentions légales",
 
     "legal_mentions_title": "Mentions légales",
     "owner_info_title": "Informations sur le propriétaire :",
     "owner_info_details": [
         "Entreprise individuelle",
-        "Identité : Lerenard Charly",
-        "Adresse : 34 Chemin de Bordeblanche 31100 Toulouse",
+        "Adresse : 222 Rue du Général Leclerc, 93110 Rosny-Sous-Bois",
         "Email : contact@novafoxforge.com",
         "TVA Intracommunautaire : FR77987617388"
     ],

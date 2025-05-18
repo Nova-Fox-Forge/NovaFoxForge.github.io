@@ -3,9 +3,9 @@
     "header_subtitle_one": "",
     "header_subtitle_second": "",
 
-    "btnLeProjet":"The project",
-    "btnLesMaquettes":"The models",
-    "btnLesClients":"The clients",
+    "btnLeProjet":"Project",
+    "btnLesMaquettes":"Models",
+    "btnLesClients":"Clients",
     "btnNovaFoxForge":"Nova Fox Forge",
     "btnParametres":"Settings",
 
@@ -102,15 +102,14 @@
     "method_title": "Working method",
     "method_description": "Communication is crucial for the success of our projects. I remain dedicated to your mission until it is complete and easily accessible to ensure the mission runs smoothly.",
     
-    "brandWebSite":"© 2024 Nova Fox Forge - site created by Nova Fox Forge",
+    "brandWebSite":"© 2025 Nova Fox Forge - site created by Nova Fox Forge",
     "btnLegaleNotice":"Legal notices",
 
     "legal_mentions_title": "Legal Notices",
     "owner_info_title": "Information about the owner:",
     "owner_info_details": [
         "Sole proprietorship",
-        "Identity: Charly Lerenard",
-        "Address: 34 Chemin de Bordeblanche 31100 Toulouse",
+        "Adress : 222 Rue du Général Leclerc, 93110 Rosny-Sous-Bois",
         "Email: contact@novafoxforge.com",
         "VAT Number: FR77987617388"
     ],
