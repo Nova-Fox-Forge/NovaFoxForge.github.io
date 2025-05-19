@@ -31,11 +31,17 @@ export function loadLanguage(){
 
 function initLanguageSwitcher(){
     // Change language with dropdown list
-    if(document.getElementById('languageSwitcher'))
+    const languageSwitcher = document.getElementById('languageSwitcher');
+    if(languageSwitcher)
     {
-        document.getElementById('languageSwitcher').addEventListener('change', function() {
+        // Set the select value to the saved language on load
+        const savedLang = localStorage.getItem('currentLanguage');
+        if (savedLang) {
+            languageSwitcher.value = savedLang.substring(0, 2);
+        }
+
+        languageSwitcher.addEventListener('change', function() {
             saveCurrentLanguage(this.value);
-            console.log(this.value)
             fetch(`/Assets/Texts/${this.value}.json`)
                 .then(response => response.json())
                 .then(data => applyTranslations(data));

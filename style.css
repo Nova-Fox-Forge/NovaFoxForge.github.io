@@ -188,22 +188,6 @@ input {
      margin-top: 20px;
  }
 
- #LeProjet {
-    opacity: 1;
- }
-
- #LesMaquettes {
-    visibility: collapse;
- }
-
- #NovaFoxForge {
-  visibility: collapse;
-}
-
-#Paramètres {
-  visibility: collapse;
-}
-
 #brandWebSite {
   margin-top: 40px;
 }

@@ -60,7 +60,7 @@
     "models_title": "The models",
     "models_description": "Here different environments which can correspond to City Information Modeling (CIM).",
     
-    "models_first": "Model of a street in Toulouse: Le chemin de Bordeblanche",
+    "models_first": "Model of a street in Toulouse (France): Le chemin de Bordeblanche",
     "models_first_desc_one": "This partial reproduction is similar to a digital twin, aiming to 'copy' a real-world representation.",
     "models_first_desc_second": "You can compare with Google Map's Street View mode.",
     "models_first_desc_third": "Features: opening and closing of gates and blocks, night mode, first person mode, car driving.",
@@ -91,11 +91,11 @@
     "models_end_second": "Whether it is an urban planning project, a presentation animation or support in video game development, our know-how will offer you a unique interactive experience.",
 
     "about_title": "About us",
-    "about_info_one": "Nova Fox Forge is a company based in Toulouse, specializing in project visualization and communication through new technologies.",
+    "about_info_one": "Nova Fox Forge is a company based in Ile de France, close to Paris, specializing in project visualization and communication through new technologies.",
     "about_info_two": "Our ambition is to carry out quality projects that will transform your concepts into interactive 3D environments, to entertain, communicate or learn.",
     
     "contact_title": "Contact",
-    "contact_info_one": "Whether you are a private, public organization, or an individual, if you want more information about my services, you can contact us by: email, LinkedIn, or Twitter", 
+    "contact_info_one": "Whether you are a private, public organization, or an individual, if you want more information about my services, you can contact us by email or LinkedIn.", 
     "contact_info_second": "The estimate is free.",
     "contact_info_third": "Our document exchanges are secured on Amazon Web Services servers via the Notion project management tool interface.",
     
