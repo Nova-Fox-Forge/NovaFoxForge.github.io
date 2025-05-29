@@ -15,5 +15,6 @@ export let keywordsToLinks = new Map([
     ['Amazon Web Services', "https://aws.amazon.com/fr/security/"],
     ['Notion', "https://www.notion.so/fr-fr/security"],
     ['Endless Money', "https://foxbandykoot.itch.io/endless-money"],
-    ['Unreal Engine 5', "https://www.unrealengine.com/fr/unreal-engine-5"]
+    ['Unreal Engine 5', "https://www.unrealengine.com/fr/unreal-engine-5"],
+    ['Hydra Energie', "https://www.hydra-energie.com/"]
   ]);

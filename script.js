@@ -1,5 +1,4 @@
-import { moveFooter, openLegalNotice, goHome, detectChrome} from "/Utils/Utils.js";
-import { saveCurrentMenuDisplayed } from "/Utils/Global.js";
+import { openLegalNotice, goHome, detectChrome} from "/Utils/Utils.js";
 
 var firstMenu = "LeProjet";
 var logo = "Assets/Images/logoFFF_round_small.png";
